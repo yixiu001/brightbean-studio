@@ -1,0 +1,4534 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-01 13:01-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Accept Terms - Brightbean"
+msgstr "接受条款 - Brightbean"
+
+msgid "Almost there"
+msgstr "快到了"
+
+msgid "Please review and accept our terms to continue"
+msgstr "请查看并接受我们的条款以继续"
+
+msgid "One quick step before you get started."
+msgstr "开始之前快速执行一步。"
+
+msgid "I agree to the"
+msgstr "我同意"
+
+msgid "Terms of Service"
+msgstr "服务条款"
+
+msgid "and"
+msgstr "和"
+
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Sign out"
+msgstr "退出"
+
+msgid "Confirm email address"
+msgstr "确认电子邮件地址"
+
+msgid "Please confirm that"
+msgstr "请确认"
+
+msgid "is your email address."
+msgstr "是您的电子邮件地址。"
+
+msgid "Confirm Email"
+msgstr "确认邮件"
+
+msgid "This email address has already been confirmed by a different account."
+msgstr "该电子邮件地址已被其他帐户确认。"
+
+msgid "This confirmation link has expired or is invalid."
+msgstr "此确认链接已过期或无效。"
+
+msgid "Sign In"
+msgstr "登录"
+
+msgid "Back to sign in"
+msgstr "返回登录"
+
+msgid "BrightBean · Studio"
+msgstr "亮豆·工作室"
+
+msgid "Welcome back"
+msgstr "欢迎回来"
+
+msgid "Sign in to BrightBean Studio | Social media scheduling &amp; approvals."
+msgstr "登录 BrightBean Studio |社交媒体调度 &amp; 批准。"
+
+#, python-format
+msgid "Continue with %(provider.name)s"
+msgstr "继续 %(provider.name)s"
+
+msgid "or"
+msgstr "或"
+
+msgid "Forgot your password?"
+msgstr "忘记密码？"
+
+msgid "Don't have an account?"
+msgstr "没有帐户？"
+
+msgid "Sign up"
+msgstr "注册"
+
+msgid "Are you sure you want to sign out?"
+msgstr "您确定要退出吗？"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Sign Out"
+msgstr "退出"
+
+msgid "Reset your password"
+msgstr "重置您的密码"
+
+msgid "Enter your email and we'll send you a reset link"
+msgstr "输入您的电子邮件，我们将向您发送重置链接"
+
+msgid "you@example.com"
+msgstr "你@example.com"
+
+msgid "Send Reset Link"
+msgstr "发送重置链接"
+
+msgid "Remember your password?"
+msgstr "还记得您的密码吗？"
+
+msgid "Sign in"
+msgstr "登录"
+
+msgid "Check your email"
+msgstr "检查您的电子邮件"
+
+msgid ""
+"We've sent you a password reset link. If you don't see the email, check your "
+"spam folder."
+msgstr ""
+"我们已向您发送了密码重置链接。如果您没有看到该电子邮件，请检查您的垃圾邮件文"
+"件夹。"
+
+msgid "Didn't receive the email?"
+msgstr "没有收到电子邮件？"
+
+msgid "Try again"
+msgstr "再试一次"
+
+msgid "Choose a strong password for your account"
+msgstr "为您的帐户选择一个强密码"
+
+msgid "This password reset link is invalid or has expired."
+msgstr "此密码重置链接无效或已过期。"
+
+msgid "Request a New Link"
+msgstr "请求新链接"
+
+msgid "Set New Password"
+msgstr "设置新密码"
+
+msgid "Password changed"
+msgstr "密码已更改"
+
+msgid "Your password has been updated successfully"
+msgstr "您的密码已成功更新"
+
+msgid "Create your account"
+msgstr "创建您的帐户"
+
+msgid ""
+"Sign up for BrightBean Studio | Schedule posts and run approvals across 10+ "
+"platforms."
+msgstr "注册 BrightBean Studio |跨 10 多个平台安排帖子并运行审批。"
+
+msgid "Create Account"
+msgstr "创建帐户"
+
+msgid "By signing up, you agree to our"
+msgstr "注册即表示您同意我们的"
+
+msgid "Already have an account?"
+msgstr "已经有帐户？"
+
+msgid "Verify your email"
+msgstr "验证您的电子邮件"
+
+msgid ""
+"We've sent a verification email to your address. Please follow the link in "
+"the email to activate your account."
+msgstr ""
+"我们已向您的地址发送了一封验证电子邮件。请点击电子邮件中的链接激活您的帐户。"
+
+msgid "Check your inbox for the verification link."
+msgstr "检查您的收件箱中的验证链接。"
+
+msgid "If you don't see it, check your spam folder."
+msgstr "如果您没有看到它，请检查您的垃圾邮件文件夹。"
+
+msgid "No workspaces yet"
+msgstr "还没有工作区"
+
+msgid ""
+"Create a workspace to start scheduling posts, managing content, and "
+"collaborating with your team."
+msgstr "创建一个工作区来开始安排帖子、管理内容以及与团队协作。"
+
+msgid "Workspace name"
+msgstr "工作区名称"
+
+msgid "e.g. My Brand, Client Name"
+msgstr "例如我的品牌、客户名称"
+
+msgid "Create Workspace"
+msgstr "创建工作空间"
+
+msgid "Profile"
+msgstr "公司简介"
+
+msgid "Remove photo"
+msgstr "删除照片"
+
+msgid "Photo"
+msgstr "照片"
+
+msgid "Please choose a photo that is at least 180×180 pixels in size."
+msgstr "请选择尺寸至少为 180×180 像素的照片。"
+
+msgid "Upload Photo"
+msgstr "上传照片"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Save Changes"
+msgstr "保存更改"
+
+msgid "Email"
+msgstr "电子邮件"
+
+msgid "Current password"
+msgstr "当前密码"
+
+msgid "New password"
+msgstr "新密码"
+
+msgid "Confirm new password"
+msgstr "确认新密码"
+
+msgid "Change Password"
+msgstr "更改密码"
+
+msgid "Role"
+msgstr "角色"
+
+#, python-format
+msgid "in %(org_membership.organization.name)s"
+msgstr "%(org_membership.organization.name)s"
+
+msgid "Delete your account"
+msgstr "删除您的帐户"
+
+msgid ""
+"When you delete your account, you lose access to Brightbean Studio account "
+"services, and we permanently delete your personal data."
+msgstr ""
+"当您删除帐户时，您将无法访问 Brightbean Studio 帐户服务，并且我们将永久删除您"
+"的个人数据。"
+
+msgid "Delete Account"
+msgstr "删除帐户"
+
+msgid ""
+"Are you sure you want to delete your account? This action is permanent and "
+"cannot be undone. You will lose access to all Brightbean Studio services, "
+"and your personal data will be permanently deleted."
+msgstr ""
+"您确定要删除您的帐户吗？此操作是永久性的且无法撤消。您将无法访问所有 "
+"Brightbean Studio 服务，并且您的个人数据将被永久删除。"
+
+msgid "Yes, delete my account"
+msgstr "是的，删除我的帐户"
+
+#, python-format
+msgid "Continue with %(attrs.name)s"
+msgstr "继续 %(attrs.name)s"
+
+#, python-format
+msgid "%(active_account.account_name)s is connected"
+msgstr "%(active_account.account_name)s 已连接"
+
+msgid "24–48 hours"
+msgstr "24–48 小时"
+
+msgid "of your first published post."
+msgstr "您第一篇发表的文章。"
+
+msgid "Awaiting first full sync"
+msgstr "等待第一次完全同步"
+
+msgid "Create a post"
+msgstr "创建帖子"
+
+msgid "Engagement rate"
+msgstr "参与率"
+
+#, python-format
+msgid "%(chart.label)s · last %(days)s days"
+msgstr "%(chart.label)s · 最近 %(days)s 天"
+
+#, python-format
+msgid "Analytics aren't available for %(active_account.get_platform_display)s"
+msgstr "分析不适用于 %(active_account.get_platform_display)s"
+
+msgid "Reconnect for analytics"
+msgstr "重新连接以进行分析"
+
+msgid ""
+"The platform rejected our analytics call as insufficient-scope. Reconnect to "
+"grant the new permissions."
+msgstr "该平台以范围不足为由拒绝了我们的分析呼吁。重新连接以授予新权限。"
+
+msgid "Reconnect"
+msgstr "重新连接"
+
+msgid "All posts"
+msgstr "所有帖子"
+
+msgid "Analytics"
+msgstr "分析"
+
+msgid "Performance across your connected channels."
+msgstr "跨连接渠道的性能。"
+
+msgid "Connected accounts"
+msgstr "关联账户"
+
+#, python-format
+msgid "%(acc.follower_count|intcomma)s followers"
+msgstr "%(acc.follower_count|intcomma)s 位关注者"
+
+msgid "Followers"
+msgstr "追随者"
+
+#, python-format
+msgid "%(n)sD"
+msgstr "%(n)sD"
+
+msgid "Post copy"
+msgstr "发布副本"
+
+msgid "Performance"
+msgstr "性能"
+
+#, python-format
+msgid "View on %(account.get_platform_display)s"
+msgstr "查看 %(account.get_platform_display)s"
+
+msgid "All"
+msgstr "全部"
+
+#, python-format
+msgid "%(k)ss"
+msgstr "%(k)ss"
+
+#, python-format
+msgid "%(r)sD"
+msgstr "%(r)sD"
+
+msgid "All time"
+msgstr "所有时间"
+
+msgid "Post"
+msgstr "邮政"
+
+msgid "No posts match these filters."
+msgstr "没有帖子符合这些过滤器。"
+
+#, python-format
+msgid "%(table.page_from)s–%(table.page_to)s of %(table.total)s"
+msgstr "%(table.page_from)s–%(table.page_to)s，共 %(table.total)s"
+
+#, python-format
+msgid "Page %(table.page)s of %(table.total_pages)s"
+msgstr "第 %(table.page)s 页（共 %(table.total_pages)s 页）"
+
+msgid "Connect an account to see analytics"
+msgstr "连接帐户以查看分析"
+
+msgid ""
+"No analytics-enabled accounts are connected to this workspace yet. Connect "
+"one to start tracking per-post performance."
+msgstr "尚无支持分析的帐户连接到此工作区。连接一个即可开始跟踪每个帖子的表现。"
+
+msgid "Connect a channel"
+msgstr "连接通道"
+
+msgid "Issue a new API key"
+msgstr "颁发新的 API 密钥"
+
+msgid "The plaintext token is shown"
+msgstr "显示明文令牌"
+
+msgid "once"
+msgstr "一次"
+
+msgid "immediately after creation."
+msgstr "创建后立即。"
+
+msgid "&times;"
+msgstr "&times;"
+
+msgid "e.g. Zapier bot, content pipeline"
+msgstr "例如Zapier 机器人，内容管道"
+
+msgid "Workspace"
+msgstr "工作空间"
+
+msgid "Pick a workspace…"
+msgstr "选择一个工作区..."
+
+msgid "Expires at"
+msgstr "到期日"
+
+msgid "(optional)"
+msgstr "（可选）"
+
+msgid "Generate"
+msgstr "生成"
+
+msgid "Active"
+msgstr "活跃"
+
+msgid "Revoked"
+msgstr "已撤销"
+
+msgid "Expired"
+msgstr "已过期"
+
+msgid "Workspace:"
+msgstr "工作空间："
+
+#, python-format
+msgid "Last used %(row.last_used_at|timesince)s ago"
+msgstr "上次使用时间：%(row.last_used_at|timesince)s 年前"
+
+msgid "Never used"
+msgstr "从未使用过"
+
+#, python-format
+msgid "Issued by %(row.issued_by.name|default:row.issued_by.email)s"
+msgstr "发布者 %(row.issued_by.name|default:row.issued_by.email)s"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Edit API key"
+msgstr "编辑 API 密钥"
+
+#, python-format
+msgid "· %(row.workspace_name)s · changes apply on the next API request."
+msgstr "· %(row.workspace_name)s · 更改适用于下一个 API 请求。"
+
+msgid "Permissions"
+msgstr "权限"
+
+msgid "You don't hold any grantable permissions in this workspace."
+msgstr "您在此工作区中不拥有任何可授予的权限。"
+
+msgid "Granted by a higher-privileged admin (locked)"
+msgstr "由更高权限的管理员授予（锁定）"
+
+msgid "Select at least one. The key can only act on these accounts."
+msgstr "至少选择一项。密钥只能作用于这些帐户。"
+
+msgid "No connected accounts in this workspace."
+msgstr "此工作区中没有连接的帐户。"
+
+msgid "Save changes"
+msgstr "保存更改"
+
+msgid "Revoke"
+msgstr "撤销"
+
+msgid "Revoke API key"
+msgstr "撤销 API 密钥"
+
+msgid "This can't be undone."
+msgstr "这无法撤消。"
+
+msgid ""
+"?\n"
+"                        Agents using it will immediately start receiving"
+msgstr ""
+"？\n"
+"                        使用它的代理将立即开始接收"
+
+msgid "401 Unauthorized"
+msgstr "401 未经授权"
+
+msgid "Revoke key"
+msgstr "撤销密钥"
+
+msgid "Save this token now."
+msgstr "立即保存此令牌。"
+
+msgid ""
+"Brightbean does not store the plaintext token. Once you close this modal it "
+"cannot be retrieved.\n"
+"                        Paste it into your agent or secret manager before "
+"continuing."
+msgstr ""
+"Brightbean 不存储明文令牌。一旦关闭此模式，它就无法检索。\n"
+"                        在继续之前将其粘贴到您的代理或秘密管理器中。"
+
+msgid "Key name:"
+msgstr "按键名称："
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "I've saved it"
+msgstr "我已经保存了"
+
+msgid ""
+"No connected accounts in this workspace. Connect one before issuing a key."
+msgstr "此工作区中没有连接的帐户。在发出密钥之前连接一个。"
+
+msgid "Only permissions you currently hold in this workspace are listed."
+msgstr "仅列出您当前在此工作区中拥有的权限。"
+
+#| msgid "Accept Terms - Brightbean"
+msgid "API Keys - Settings - Brightbean"
+msgstr "接受条款 - Brightbean"
+
+msgid "API Keys"
+msgstr "API 密钥"
+
+msgid ""
+"Used by AI agents and external scripts to act in your workspaces.\n"
+"                Each key can be scoped to one workspace and an explicit list "
+"of social accounts."
+msgstr ""
+"由 AI 代理和外部脚本用来在您的工作区中执行操作。\n"
+"                每个密钥的范围可以限定为一个工作区和一份明确的社交帐户列表。"
+
+msgid "Issue new key"
+msgstr "发出新密钥"
+
+msgid "Hide revoked keys"
+msgstr "隐藏已撤销的密钥"
+
+#, python-format
+msgid "Show %(revoked_count)s revoked"
+msgstr "显示%(revoked_count)s 已撤销"
+
+#| msgid "Revoke API key"
+msgid "No active API keys."
+msgstr "撤销 API 密钥"
+
+#, python-format
+msgid ""
+"<a href=\"?show=all\" style=\"color: var(--text-secondary); text-decoration: "
+"underline;\">Show %(count)s revoked</a>\n"
+"            or click <strong>Issue new key</strong> to mint a new one."
+msgstr ""
+"<a href=\"?show=all\" style=\"color: var(--text-secondary); text-decoration: "
+"underline;\">显示 %(count)s 已撤销</a>\n"
+"            或点击<strong>颁发新密钥</strong>来创建新密钥。"
+
+msgid "No API keys issued yet."
+msgstr "尚未发布 API 密钥。"
+
+msgid "Click <strong>Issue new key</strong> to mint one for an agent."
+msgstr "单击<strong>颁发新密钥</strong>为代理创建一个密钥。"
+
+#, python-format
+msgid "by %(post.author.display_name|default:\"Unknown\")s"
+msgstr "通过 %(post.author.display_name|default:\"Unknown\")s"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Details"
+msgstr "详情"
+
+msgid "shared with client"
+msgstr "与客户共享"
+
+#, python-format
+msgid "%(c.created_at|timesince)s ago"
+msgstr "%(c.created_at|timesince)s 前"
+
+msgid "View changes"
+msgstr "查看更改"
+
+#, python-format
+msgid "· v%(post.versions.all|length)s"
+msgstr "· v%(post.versions.all|length)s"
+
+msgid "Approve"
+msgstr "批准"
+
+msgid "Review"
+msgstr "评论"
+
+msgid "Resume"
+msgstr "简历"
+
+msgid "Request changes"
+msgstr "请求更改"
+
+msgid "Reject"
+msgstr "拒绝"
+
+msgid "panel === \\"
+msgstr "面板===\\"
+
+msgid "Send back for changes"
+msgstr "发回更改"
+
+msgid "Reject post"
+msgstr "拒绝发帖"
+
+msgid "A comment is required"
+msgstr "需要评论"
+
+msgid "Write a comment... Use @name to mention someone"
+msgstr "写评论...使用@name 提及某人"
+
+msgid "Visible to Client"
+msgstr "对客户可见"
+
+msgid "Internal Only"
+msgstr "仅供内部使用"
+
+msgid "Comment"
+msgstr "评论"
+
+msgid "Internal"
+msgstr "内部"
+
+#, python-format
+msgid "%(comment.created_at|timesince)s ago"
+msgstr "%(comment.created_at|timesince)s 前"
+
+#, python-format
+msgid "%(reply.created_at|timesince)s ago"
+msgstr "%(reply.created_at|timesince)s 前"
+
+msgid "No comments yet"
+msgstr "还没有评论"
+
+msgid "Caption Changes"
+msgstr "标题更改"
+
+msgid "Added"
+msgstr "已添加"
+
+msgid "Removed"
+msgstr "已删除"
+
+msgid "No caption changes"
+msgstr "没有更改标题"
+
+msgid "Media Changes"
+msgstr "媒体变化"
+
+#, python-format
+msgid "Previous (%(diff_data.media_old|length)s items)"
+msgstr "上一页 (%(diff_data.media_old|length)s 条)"
+
+#, python-format
+msgid "Current (%(diff_data.media_new|length)s items)"
+msgstr "当前（%(diff_data.media_new|length)s 项）"
+
+msgid "Platform Changes"
+msgstr "平台变更"
+
+msgid "Target platforms have been modified."
+msgstr "目标平台已被修改。"
+
+msgid "Version History"
+msgstr "版本历史"
+
+msgid "Versions"
+msgstr "版本"
+
+#, python-format
+msgid "v%(v.version_number)s"
+msgstr "v%(v.version_number)s"
+
+msgid "v1"
+msgstr "v1"
+
+msgid "(initial)"
+msgstr "（初始）"
+
+#, python-format
+msgid "v%(version_old.version_number)s"
+msgstr "v%(version_old.version_number)s"
+
+#, python-format
+msgid "v%(version_new.version_number)s"
+msgstr "v%(version_new.version_number)s"
+
+#, python-format
+msgid "by %(version_new.created_by.display_name|default:\"Unknown\")s"
+msgstr "通过 %(version_new.created_by.display_name|default:\"Unknown\")s"
+
+msgid "No version history available"
+msgstr "没有可用的版本历史记录"
+
+msgid "Switch to English"
+msgstr "切换到英语"
+
+msgid "English"
+msgstr "英语"
+
+msgid "Switch to Simplified Chinese"
+msgstr "切换到简体中文"
+
+msgid "Dismiss"
+msgstr "解雇"
+
+msgid "P"
+msgstr "磷"
+
+msgid "No workspaces"
+msgstr "没有工作空间"
+
+msgid "Create workspace"
+msgstr "创建工作区"
+
+msgid "Workspace settings"
+msgstr "工作区设置"
+
+msgid "New"
+msgstr "新"
+
+msgid "Publish content to a channel"
+msgstr "将内容发布到频道"
+
+msgid "Idea"
+msgstr "理念"
+
+msgid "Capture a content idea"
+msgstr "捕捉内容创意"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Create Idea"
+msgstr "创造想法"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Search or create tag..."
+msgstr "搜索或创建标签..."
+
+msgid "No tags yet. Type to create one."
+msgstr "还没有标签。键入以创建一个。"
+
+msgid "Create \""
+msgstr "创建“"
+
+msgid "Create new tag"
+msgstr "创建新标签"
+
+msgid "Give your idea a title"
+msgstr "给你的想法一个标题"
+
+msgid "Let it flow... or"
+msgstr "让它流动……或者"
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "Drag &amp; drop"
+msgstr "拖拽&amp;放"
+
+msgid "Add another file"
+msgstr "添加另一个文件"
+
+msgid "select a file"
+msgstr "选择一个文件"
+
+msgid "Emoji"
+msgstr "表情符号"
+
+msgid "Search emoji..."
+msgstr "搜索表情符号..."
+
+msgid "emoji.n"
+msgstr "表情符号.n"
+
+msgid "Save Idea"
+msgstr "保存想法"
+
+msgid "Tag name..."
+msgstr "标签名称..."
+
+msgid "Create"
+msgstr "创建"
+
+msgid "Publish"
+msgstr "发布"
+
+msgid "Social Inbox"
+msgstr "社交收件箱"
+
+msgid "Notifications"
+msgstr "通知"
+
+msgid "Intelligence"
+msgstr "情报"
+
+msgid "Channels"
+msgstr "渠道"
+
+msgid "Connect channels"
+msgstr "连接渠道"
+
+msgid "More channels"
+msgstr "更多频道"
+
+msgid "Collapse sidebar"
+msgstr "折叠侧边栏"
+
+msgid "Expand sidebar"
+msgstr "展开侧边栏"
+
+msgid "Manage Team"
+msgstr "管理团队"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Log out"
+msgstr "退出"
+
+msgid "Toggle menu"
+msgstr "切换菜单"
+
+msgid "Security token missing. Please reload the page."
+msgstr "安全令牌丢失。请重新加载页面。"
+
+#| msgid "Couldn't save, billing service was unreachable. Please try again."
+msgid "Could not save the idea. Please try again."
+msgstr "无法保存，无法访问计费服务。请再试一次。"
+
+msgid "One of the files failed to upload. Please try again."
+msgstr "其中一个文件上传失败。请再试一次。"
+
+msgid "List"
+msgstr "列表"
+
+msgid "Calendar"
+msgstr "日历"
+
+msgid "Delete post?"
+msgstr "删除帖子？"
+
+msgid ""
+"This action cannot be undone. The post and all associated data will be "
+"permanently removed."
+msgstr "此操作无法撤消。该帖子和所有相关数据将被永久删除。"
+
+#| msgid "Deleting…"
+msgid "Deleting..."
+msgstr "正在删除..."
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Welcome &#x1F44B;"
+msgstr "欢迎拨打&#x1F44B;"
+
+msgid "Connect a channel to start posting and managing your comments"
+msgstr "连接频道以开始发布和管理您的评论"
+
+msgid "Connect a Channel"
+msgstr "连接通道"
+
+msgid "Create post"
+msgstr "创建帖子"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Scheduled in a channel slot"
+msgstr "安排在频道时段"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "e.g., Product Launch, Campaign Start"
+msgstr "例如，产品发布、活动开始"
+
+msgid "Start Date"
+msgstr "开始日期"
+
+msgid "End Date"
+msgstr "结束日期"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Description (optional)"
+msgstr "说明（可选）"
+
+msgid "Notes about this event..."
+msgstr "关于本次活动的注意事项..."
+
+#| msgid "Delete Event"
+msgid "Delete this event?"
+msgstr "删除事件"
+
+msgid "Delete Event"
+msgstr "删除事件"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Caption"
+msgstr "标题"
+
+msgid "Platforms"
+msgstr "平台"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Not scheduled"
+msgstr "未安排"
+
+msgid "No content scheduled yet"
+msgstr "尚未安排内容"
+
+msgid "Create your first post to see it on the calendar"
+msgstr "创建您的第一篇帖子以在日历上查看它"
+
+msgid "Create Post"
+msgstr "创建帖子"
+
+#, python-format
+msgid "+%(day.overflow)s more"
+msgstr "+%(day.overflow)s 更多"
+
+msgid "No posts pending approval"
+msgstr "没有待批准的帖子"
+
+msgid "Posts submitted for review will appear here"
+msgstr "提交审核的帖子将显示在此处"
+
+msgid "Approve all"
+msgstr "批准全部"
+
+msgid "Reject all"
+msgstr "全部拒绝"
+
+msgid "Tell the creator why. This comment is shared with them."
+msgstr "告诉创作者原因。此评论已与他们分享。"
+
+msgid "Reason for rejection…"
+msgstr "拒绝原因..."
+
+msgid "Version changes"
+msgstr "版本变更"
+
+msgid "Loading…"
+msgstr "加载中..."
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Month"
+msgstr "月份"
+
+msgid "Week"
+msgstr "周"
+
+msgid "Day"
+msgstr "日"
+
+msgid "All Posts"
+msgstr "所有帖子"
+
+msgid "Draft"
+msgstr "吃水"
+
+msgid "Pending Review"
+msgstr "待审核"
+
+msgid "Approved"
+msgstr "已批准"
+
+msgid "Scheduled"
+msgstr "预定"
+
+msgid "Publishing"
+msgstr "出版"
+
+msgid "Published"
+msgstr "已发表"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Media"
+msgstr "媒体"
+
+msgid "Platform"
+msgstr "平台"
+
+msgid "Last Updated"
+msgstr "最后更新"
+
+msgid "Proposed publishing time"
+msgstr "拟定发布时间"
+
+msgid "No drafts"
+msgstr "无草稿"
+
+msgid "Draft posts will appear here as you create them"
+msgstr "当您创建帖子时，草稿帖子将显示在此处"
+
+msgid "All Channels"
+msgstr "所有频道"
+
+msgid "All Tags"
+msgstr "所有标签"
+
+#, python-format
+msgid "%(pp.post.created_at|timesince)s ago"
+msgstr "%(pp.post.created_at|timesince)s 前"
+
+msgid "No queued posts"
+msgstr "没有排队的帖子"
+
+msgid "Queued posts will appear here when you queue them"
+msgstr "当您对帖子进行排队时，排队的帖子将显示在此处"
+
+msgid "No sent posts yet"
+msgstr "尚未发送帖子"
+
+msgid "Published posts will appear here after they go live"
+msgstr "发布的帖子上线后将显示在此处"
+
+msgid "Posting Schedule"
+msgstr "发布时间表"
+
+msgid "Define recurring time slots for automatic queue scheduling"
+msgstr "定义自动队列调度的重复时隙"
+
+msgid "Add Slot"
+msgstr "添加插槽"
+
+msgid "No connected accounts to configure posting slots for."
+msgstr "没有可为其配置发帖槽的连接帐户。"
+
+msgid "No slot"
+msgstr "无插槽"
+
+msgid "Remove from queue"
+msgstr "从队列中删除"
+
+msgid "Queue is empty"
+msgstr "队列为空"
+
+msgid "Add posts to this queue from the composer using \"Add to Queue\"."
+msgstr "使用“添加到队列”将作曲家的帖子添加到此队列。"
+
+msgid "Publishing Queues"
+msgstr "发布队列"
+
+msgid "Auto-schedule posts into time slots by category and channel."
+msgstr "按类别和频道自动将帖子安排到时段。"
+
+msgid "Back to Calendar"
+msgstr "返回日历"
+
+msgid "Create Queue"
+msgstr "创建队列"
+
+msgid "Queue Name"
+msgstr "队列名称"
+
+msgid "e.g., Educational - MWF 9am"
+msgstr "例如，教育 - MWF 上午 9 点"
+
+msgid "Channel"
+msgstr "频道"
+
+msgid "Select channel..."
+msgstr "选择频道..."
+
+msgid "Category (optional)"
+msgstr "类别（可选）"
+
+msgid "Any category"
+msgstr "任何类别"
+
+#, python-format
+msgid "%(queue.entries.count)s post%(queue.entries.count|pluralize)s"
+msgstr "%(queue.entries.count)s 帖子%(queue.entries.count|pluralize)s"
+
+msgid "View"
+msgstr "查看"
+
+#| msgid "Delete this workspace"
+msgid "Delete this queue?"
+msgstr "删除此工作区"
+
+msgid "No queues yet"
+msgstr "还没有排队"
+
+msgid "Create a queue to auto-schedule posts into time slots."
+msgstr "创建一个队列来自动将帖子安排到时间段中。"
+
+#, python-format
+msgid ""
+"by %(post.author.display_name|default:\"Unknown\")s · %(workspace.name)s"
+msgstr ""
+"通过 %(post.author.display_name|default:\"Unknown\")s · %(workspace.name)s"
+
+msgid "From the team"
+msgstr "来自团队"
+
+msgid "On hold — the team has been notified."
+msgstr "暂停 — 团队已收到通知。"
+
+msgid "You approved this. Scheduled to publish"
+msgstr "你批准了这个。预定发布"
+
+msgid "Put on hold"
+msgstr "搁置"
+
+msgid "Submit feedback"
+msgstr "提交反馈"
+
+msgid "Request hold"
+msgstr "请求保留"
+
+msgid "Your Activity"
+msgstr "您的活动"
+
+msgid "Your review history and actions"
+msgstr "您的评论历史记录和操作"
+
+#, python-format
+msgid "%(action.created_at|timesince)s ago"
+msgstr "%(action.created_at|timesince)s 前"
+
+msgid "No activity yet"
+msgstr "还没有活动"
+
+msgid "Your review actions will be logged here"
+msgstr "您的审核操作将记录在此处"
+
+msgid "Client Portal"
+msgstr "客户门户"
+
+msgid "Invite external clients to review and approve posts."
+msgstr "邀请外部客户审查和批准帖子。"
+
+msgid "Invite Client"
+msgstr "邀请客户"
+
+#, python-format
+msgid "Clients (%(clients_data|length)s)"
+msgstr "客户 (%(clients_data|length)s)"
+
+msgid "No clients yet"
+msgstr "还没有客户"
+
+msgid ""
+"Invite a client to give them portal access for reviewing and approving posts."
+msgstr "邀请客户授予他们门户访问权限以审核和批准帖子。"
+
+msgid "Link active"
+msgstr "链接有效"
+
+msgid "No link sent"
+msgstr "没有发送链接"
+
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+msgid "client@example.com"
+msgstr "client@example.com"
+
+msgid ""
+"The client will receive an invitation email to create an account. Once "
+"accepted, they will have"
+msgstr "客户将收到一封创建帐户的邀请电子邮件。一旦被接受，他们将拥有"
+
+msgid "Client"
+msgstr "客户"
+
+msgid ""
+"access to this workspace, allowing them to review and approve posts via the "
+"Client Portal."
+msgstr "访问此工作区，允许他们通过客户端门户审查和批准帖子。"
+
+msgid "Send Invitation"
+msgstr "发送邀请"
+
+msgid "Pending Invitations"
+msgstr "待处理的邀请"
+
+#, python-format
+msgid ""
+"Invited by %(invite.invited_by.display_name)s · Expires "
+"%(invite.expires_at|timesince)s from now"
+msgstr ""
+"由 %(invite.invited_by.display_name)s 邀请 · 从现在起 "
+"%(invite.expires_at|timesince)s 过期"
+
+msgid "Resend"
+msgstr "重新发送"
+
+msgid "Posts for your review"
+msgstr "供您审阅的帖子"
+
+msgid "Approve or request changes before anything goes live."
+msgstr "在任何内容上线之前批准或请求更改。"
+
+msgid "Needs your approval"
+msgstr "需要您的批准"
+
+msgid "Approved &amp; scheduled"
+msgstr "已批准 &amp; 预定"
+
+msgid "All caught up"
+msgstr "全部都追上了"
+
+msgid "No posts are waiting for your review right now"
+msgstr "目前没有帖子等待您的审核"
+
+msgid "Powered by BrightBean · Secure approval link"
+msgstr "由 BrightBean 提供支持 · 安全审批链接"
+
+#, python-format
+msgid "Here's what's happening with %(workspace.name)s"
+msgstr "这是 %(workspace.name)s 发生的情况"
+
+msgid "Posts awaiting your review"
+msgstr "帖子等待您的审核"
+
+msgid "Recently published"
+msgstr "最近发表"
+
+msgid "Recent actions"
+msgstr "最近的行动"
+
+#, python-format
+msgid ""
+"You have %(pending_count)s post%(pending_count|pluralize)s waiting for review"
+msgstr "您有 %(pending_count)s post%(pending_count|pluralize)s 等待审核"
+
+msgid "Review and approve content before it's published"
+msgstr "在发布之前审核并批准内容"
+
+msgid "Review Now"
+msgstr "立即查看"
+
+#, python-format
+msgid "Hi %(client_user.display_name)s,"
+msgstr "你好%(client_user.display_name)s，"
+
+#, python-format
+msgid ""
+"%(created_by.display_name)s has shared content for your review. Click below "
+"to access your portal and approve or provide feedback on scheduled posts."
+msgstr ""
+"%(created_by.display_name)s 已分享内容供您审核。单击下面访问您的门户并批准或"
+"提供有关预定帖子的反馈。"
+
+msgid "Review Posts"
+msgstr "评论帖子"
+
+msgid ""
+"This link is valid for 30 days. If it expires, ask your account manager for "
+"a new one."
+msgstr "此链接的有效期为 30 天。如果过期，请向您的客户经理索取新的。"
+
+#, python-format
+msgid "You're receiving this because you're a client of %(workspace.name)s."
+msgstr "您收到此消息是因为您是 %(workspace.name)s 的客户。"
+
+#, python-format
+msgid "Sign in to %(workspace.name)s"
+msgstr "登录%(workspace.name)s"
+
+#, python-format
+msgid "Continue to review and approve scheduled posts for %(workspace.name)s."
+msgstr "继续审核并批准 %(workspace.name)s 的预定职位。"
+
+msgid "Continue to portal"
+msgstr "继续访问门户"
+
+msgid "Link Expired"
+msgstr "链接已过期"
+
+msgid "This link has expired"
+msgstr "该链接已过期"
+
+msgid ""
+"Magic links are valid for 30 days. Please contact your account manager to "
+"receive a new link."
+msgstr "魔法链接的有效期为 30 天。请联系您的客户经理以获取新链接。"
+
+msgid "Need a new link?"
+msgstr "需要新链接吗？"
+
+msgid ""
+"Ask your team to send you a fresh access link from the workspace settings."
+msgstr "请您的团队向您发送来自工作区设置的新访问链接。"
+
+msgid "Home"
+msgstr "首页"
+
+msgid "Approvals"
+msgstr "批准"
+
+msgid "Activity"
+msgstr "活动"
+
+msgid "Published Content"
+msgstr "发布内容"
+
+msgid "Posts that have been published to your social channels"
+msgstr "已发布到您的社交渠道的帖子"
+
+msgid "No published posts yet"
+msgstr "还没有发布帖子"
+
+msgid "Published content will appear here"
+msgstr "发布的内容将出现在这里"
+
+msgid "Reports"
+msgstr "报告"
+
+msgid "Performance reports shared with you"
+msgstr "与您分享的绩效报告"
+
+msgid "Reports coming soon"
+msgstr "报告即将推出"
+
+msgid ""
+"Your team will be able to share performance reports with you here. Check "
+"back soon!"
+msgstr "您的团队将能够在此处与您分享绩效报告。请尽快回来查看！"
+
+msgid "Content Categories"
+msgstr "内容类别"
+
+msgid "Organize posts by category for calendar filtering and queue scheduling."
+msgstr "按类别组织帖子以进行日历过滤和队列调度。"
+
+msgid "Add Category"
+msgstr "添加类别"
+
+msgid "e.g., Educational"
+msgstr "例如，教育"
+
+msgid "Save"
+msgstr "保存"
+
+#, python-format
+msgid "%(cat.posts.count)s post%(cat.posts.count|pluralize)s"
+msgstr "%(cat.posts.count)s 帖子%(cat.posts.count|pluralize)s"
+
+#| msgid "Delete this organization"
+msgid "Delete this category?"
+msgstr "删除该组织"
+
+msgid "No categories yet"
+msgstr "还没有类别"
+
+msgid "Create categories to organize your posts."
+msgstr "创建类别来组织您的帖子。"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "No accounts connected"
+msgstr "没有关联账户"
+
+msgid "Publishing failed"
+msgstr "发布失败"
+
+msgid "Open an editable draft copy to fix and re-queue"
+msgstr "打开可编辑的草稿副本进行修复并重新排队"
+
+msgid "Clone to retry →"
+msgstr "克隆以重试 →"
+
+msgid "This post is"
+msgstr "这篇文章是"
+
+msgid "scheduled"
+msgstr "预定的"
+
+msgid ". Saving changes will affect the scheduled post."
+msgstr "。保存更改将影响预定的帖子。"
+
+msgid "and read-only. Use"
+msgstr "并且只读。使用"
+
+msgid "Clone"
+msgstr "克隆"
+
+msgid "to repost an editable copy."
+msgstr "重新发布可编辑的副本。"
+
+msgid "Create an editable draft copy"
+msgstr "创建可编辑的草稿副本"
+
+msgid "autoSuggestedTitle || \\"
+msgstr "自动建议标题 || \\"
+
+msgid "Save as Template"
+msgstr "另存为模板"
+
+msgid "Template name…"
+msgstr "模板名称..."
+
+msgid "Description (optional)…"
+msgstr "描述（可选）..."
+
+msgid "Save Template"
+msgstr "保存模板"
+
+msgid "Use Template"
+msgstr "使用模板"
+
+msgid "Loading templates…"
+msgstr "正在加载模板..."
+
+msgid "What would you like to share?"
+msgstr "您想分享什么？"
+
+msgid "Drag & drop or"
+msgstr "拖放或"
+
+msgid "select files"
+msgstr "选择文件"
+
+msgid "Search Unsplash"
+msgstr "搜索 Unsplash"
+
+msgid "Media Library"
+msgstr "媒体库"
+
+msgid "Select Board"
+msgstr "选择主板"
+
+msgid "Select a board…"
+msgstr "选择一个板..."
+
+msgid "Loading boards…"
+msgstr "正在加载板..."
+
+msgid "No boards found. Create a board on Pinterest first."
+msgstr "没有找到板子。首先在 Pinterest 上创建一个图板。"
+
+msgid "Destination Link"
+msgstr "目的地链接"
+
+msgid "https://example.com/your-page"
+msgstr "https://example.com/your-page"
+
+msgid "Where people go when they click the pin"
+msgstr "人们点击图钉后会去哪里"
+
+msgid "Tag Products"
+msgstr "标签产品"
+
+msgid "Product URLs or IDs (comma-separated)"
+msgstr "产品 URL 或 ID（以逗号分隔）"
+
+msgid "Requires a connected product catalog"
+msgstr "需要连接的产品目录"
+
+msgid "Advanced"
+msgstr "高级"
+
+msgid "Allow people to comment"
+msgstr "允许人们发表评论"
+
+msgid "Show similar products"
+msgstr "显示类似产品"
+
+msgid "Alt Text"
+msgstr "替代文本"
+
+msgid "Describe this pin for accessibility…"
+msgstr "描述此引脚的可访问性..."
+
+msgid "Video Cover Image"
+msgstr "视频封面图片"
+
+#| msgid "Channel"
+msgid "Change"
+msgstr "频道"
+
+#| msgid "Back to library"
+msgid "Pick from Library"
+msgstr "返回图书馆"
+
+#| msgid "Loading…"
+msgid "Uploading…"
+msgstr "加载中..."
+
+msgid "Upload"
+msgstr "上传"
+
+msgid "Required for video pins. PNG or JPG, same dimensions as video."
+msgstr "视频引脚所需。 PNG 或 JPG，尺寸与视频相同。"
+
+msgid "Custom Thumbnail"
+msgstr "自定义缩略图"
+
+#| msgid "Drag & drop or"
+msgid "Drag & drop a thumbnail"
+msgstr "拖放或"
+
+msgid "Remove thumbnail"
+msgstr "删除缩略图"
+
+msgid "Visibility"
+msgstr "能见度"
+
+msgid "Public"
+msgstr "公共"
+
+msgid "Unlisted"
+msgstr "未上市"
+
+msgid "Private"
+msgstr "私人"
+
+msgid "Made for Kids"
+msgstr "专为儿童打造"
+
+msgid "Required by COPPA - mark if this video is directed at children under 13"
+msgstr "COPPA 要求 - 标记该视频是否针对 13 岁以下儿童"
+
+msgid "vlog, travel, daily"
+msgstr "视频博客、旅行、日常"
+
+msgid "Comma-separated"
+msgstr "逗号分隔"
+
+msgid "Who can see this post"
+msgstr "谁能看到这个帖子"
+
+#| msgid "Who can see this post"
+msgid "Select who can view this post"
+msgstr "谁能看到这个帖子"
+
+msgid "Branded content visibility cannot be set to private."
+msgstr "品牌内容可见性无法设置为私有。"
+
+msgid "Loading account settings…"
+msgstr "正在加载帐户设置..."
+
+msgid ""
+"This TikTok app hasn't passed TikTok's content audit yet — only private "
+"posting (\"Only you\") is available until the audit is approved."
+msgstr ""
+"该 TikTok 应用尚未通过 TikTok 的内容审核——在审核获得批准之前，只能发布私人帖"
+"子（“只有你”）。"
+
+msgid "Cover"
+msgstr "封面"
+
+msgid "Reset to default cover"
+msgstr "重置为默认封面"
+
+msgid "Allow users to:"
+msgstr "允许用户："
+
+msgid "Duet"
+msgstr "二重唱"
+
+msgid "Stitch"
+msgstr "针迹"
+
+msgid "Disclose post content"
+msgstr "公开帖子内容"
+
+msgid "Let others know this post promotes a brand, product or service."
+msgstr "让其他人知道此帖子宣传品牌、产品或服务。"
+
+msgid "Your brand"
+msgstr "你的品牌"
+
+msgid "You are promoting yourself or your own business."
+msgstr "您正在推销自己或自己的企业。"
+
+msgid "Branded content"
+msgstr "品牌内容"
+
+msgid "You are promoting another brand or a third party."
+msgstr "您正在宣传另一个品牌或第三方。"
+
+msgid ""
+"Branded content isn't available until your TikTok app passes TikTok's "
+"content audit, because branded content can't be posted privately."
+msgstr ""
+"在您的 TikTok 应用通过 TikTok 的内容审核之前，品牌内容不可用，因为品牌内容无"
+"法私下发布。"
+
+msgid ""
+"Set visibility to public, friends, or followers to enable branded content."
+msgstr "设置公众、朋友或关注者的可见性以启用品牌内容。"
+
+msgid ""
+"You need to indicate if your content promotes yourself, a third party, or "
+"both."
+msgstr "您需要表明您的内容是否宣传您自己、第三方或两者。"
+
+msgid "AI-generated content"
+msgstr "人工智能生成的内容"
+
+msgid ""
+"Add TikTok's AI-generated label if the post contains AI-generated content."
+msgstr "如果帖子包含人工智能生成的内容，请添加 TikTok 的人工智能生成标签。"
+
+msgid "By posting, you agree to TikTok's"
+msgstr "发帖即表示您同意 TikTok 的"
+
+msgid "Branded Content Policy"
+msgstr "品牌内容政策"
+
+msgid "Music Usage Confirmation"
+msgstr "音乐使用确认"
+
+msgid ""
+"After you publish, it may take a few minutes for your video to process and "
+"appear on your TikTok profile."
+msgstr ""
+"发布后，您的视频可能需要几分钟的时间才能处理并显示在您的 TikTok 个人资料中。"
+
+msgid "Remove override"
+msgstr "删除覆盖"
+
+msgid "\\"
+msgstr "\\"
+
+msgid "First Comment"
+msgstr "第一条评论"
+
+msgid "First comment posted after the main post…"
+msgstr "主帖后发布的第一条评论..."
+
+msgid "Category"
+msgstr "类别"
+
+msgid "No category"
+msgstr "没有类别"
+
+msgid "Internal team only"
+msgstr "仅限内部团队"
+
+msgid "Select tags..."
+msgstr "选择标签..."
+
+msgid "Notes"
+msgstr "注释"
+
+msgid "Internal team notes - not visible to clients…"
+msgstr "内部团队注释 - 客户不可见......"
+
+#| msgid "Save"
+msgid "Saved"
+msgstr "保存"
+
+#| msgid "No saved replies yet"
+msgid "Not saved yet"
+msgstr "尚未保存回复"
+
+msgid "Save Draft"
+msgstr "保存草稿"
+
+msgid "Submit for Approval"
+msgstr "提交审批"
+
+msgid "For Approval"
+msgstr "供批准"
+
+msgid "Resubmit"
+msgstr "重新提交"
+
+msgid "Next available"
+msgstr "下一个可用"
+
+msgid "Add to Queue"
+msgstr "添加到队列"
+
+msgid "Next Available"
+msgstr "下一个可用"
+
+msgid "Place in next available slot"
+msgstr "放置在下一个可用插槽中"
+
+msgid "Prioritise"
+msgstr "确定优先顺序"
+
+msgid "Add to top of queue"
+msgstr "添加到队列顶部"
+
+msgid "Now"
+msgstr "现在"
+
+msgid "Publish immediately"
+msgstr "立即发布"
+
+msgid "Set Date and Time"
+msgstr "设置日期和时间"
+
+msgid "Choose a specific time"
+msgstr "选择具体时间"
+
+msgid "Schedule Post"
+msgstr "安排帖子"
+
+msgid "Time"
+msgstr "时间"
+
+#, python-format
+msgid "Timezone: %(workspace.effective_timezone)s"
+msgstr "时区: %(workspace.effective_timezone)s"
+
+msgid "Saving as a draft keeps this as a"
+msgstr "另存为草稿可将其保留为"
+
+msgid "proposed"
+msgstr "提议的"
+
+msgid "time. Use"
+msgstr "时间。使用"
+
+msgid "Set Schedule"
+msgstr "设定时间表"
+
+msgid "to publish at this time."
+msgstr "此时发布。"
+
+msgid "Awaiting internal review"
+msgstr "等待内部审查"
+
+msgid "Awaiting client approval"
+msgstr "等待客户批准"
+
+msgid "Changes requested - edit and resubmit"
+msgstr "请求更改 - 编辑并重新提交"
+
+msgid "Rejected - edit and resubmit or delete"
+msgstr "被拒绝 - 编辑并重新提交或删除"
+
+msgid "Approved - saving changes sends it back for re-approval"
+msgstr "已批准 - 保存更改将其发回以供重新批准"
+
+msgid "On hold - a client paused this; resume it from the approvals queue"
+msgstr "暂停 - 客户端暂停了此操作；从批准队列中恢复它"
+
+#, python-format
+msgid "%(latest_feedback.created_at|timesince)s ago"
+msgstr "%(latest_feedback.created_at|timesince)s 前"
+
+msgid "Request Changes"
+msgstr "请求变更"
+
+msgid "What needs to change?"
+msgstr "需要改变什么？"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Approval History"
+msgstr "批准历史"
+
+msgid "Comments"
+msgstr "评论"
+
+msgid "Select Thumbnail"
+msgstr "选择缩略图"
+
+msgid "Free high-resolution photos &middot; add one or many"
+msgstr "免费高分辨率照片 &middot; 添加一个或多个"
+
+msgid "Search free high-resolution photos…"
+msgstr "搜索免费的高分辨率照片..."
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "No results. Try another search."
+msgstr "没有结果。尝试另一个搜索。"
+
+msgid "Choose thumbnail from video"
+msgstr "从视频中选择缩略图"
+
+msgid "Scrub to the frame you want, then grab it"
+msgstr "拖动到您想要的框架，然后抓住它"
+
+msgid "Frame at"
+msgstr "帧于"
+
+#| msgid "Loading…"
+msgid "Saving…"
+msgstr "加载中..."
+
+msgid "Use this frame"
+msgstr "使用这个框架"
+
+msgid "Post saved"
+msgstr "帖子已保存"
+
+msgid "Only one video file can be uploaded at a time."
+msgstr "一次只能上传一个视频文件。"
+
+msgid ""
+"You cannot mix images and video. Please upload either images or a single "
+"video."
+msgstr "您不能混合图像和视频。请上传图像或单个视频。"
+
+msgid "New Idea"
+msgstr "新理念"
+
+msgid "Ideas"
+msgstr "想法"
+
+msgid "Templates"
+msgstr "模板"
+
+msgid "Feeds"
+msgstr "饲料"
+
+msgid "Search tags..."
+msgstr "搜索标签..."
+
+msgid "No tags yet"
+msgstr "还没有标签"
+
+msgid "No matching tags"
+msgstr "没有匹配的标签"
+
+msgid "Edit Idea"
+msgstr "编辑想法"
+
+msgid "Delete idea?"
+msgstr "删除想法？"
+
+msgid ""
+"This action cannot be undone. The idea and all associated data will be "
+"permanently removed."
+msgstr "此操作无法撤消。该想法和所有相关数据将被永久删除。"
+
+msgid "Deleting…"
+msgstr "正在删除..."
+
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+msgid "By"
+msgstr "由"
+
+msgid "&bull;"
+msgstr "&bull;"
+
+#| msgid "Couldn't save, billing service was unreachable. Please try again."
+msgid "Could not create a post from this idea. Please try again."
+msgstr "无法保存，无法访问计费服务。请再试一次。"
+
+#| msgid "Couldn't save, billing service was unreachable. Please try again."
+msgid "Could not delete the idea. Please try again."
+msgstr "无法保存，无法访问计费服务。请再试一次。"
+
+#| msgid "Couldn't save, billing service was unreachable. Please try again."
+msgid "Could not create column. Please try again."
+msgstr "无法保存，无法访问计费服务。请再试一次。"
+
+#| msgid "Couldn't save, billing service was unreachable. Please try again."
+msgid "Could not delete column. Please try again."
+msgstr "无法保存，无法访问计费服务。请再试一次。"
+
+msgid "Import from CSV"
+msgstr "从 CSV 导入"
+
+msgid "Bulk import posts from a CSV or TSV file."
+msgstr "从 CSV 或 TSV 文件批量导入帖子。"
+
+msgid "Upload CSV File"
+msgstr "上传 CSV 文件"
+
+msgid "Drop your CSV file here, or"
+msgstr "将您的 CSV 文件拖放到此处，或者"
+
+msgid "browse"
+msgstr "浏览"
+
+msgid "Supports .csv and .tsv files"
+msgstr "支持 .csv 和 .tsv 文件"
+
+msgid ""
+"Expected columns: date, time, platforms, caption, media_url, category, tags, "
+"first_comment"
+msgstr "预期列：日期、时间、平台、标题、media_url、类别、标签、first_comment"
+
+msgid "Upload &amp; Map Columns"
+msgstr "上传&amp;地图列"
+
+msgid "Drafts"
+msgstr "草稿"
+
+#, python-format
+msgid "%(drafts|length)s draft%(drafts|length|pluralize)s"
+msgstr "%(drafts|length)s 草稿%(drafts|length|pluralize)s"
+
+msgid "New Post"
+msgstr "新帖子"
+
+#, python-format
+msgid "%(draft.updated_at|timesince)s ago"
+msgstr "%(draft.updated_at|timesince)s 前"
+
+#, python-format
+msgid "by %(draft.author.display_name)s"
+msgstr "通过 %(draft.author.display_name)s"
+
+msgid "Start composing to create your first draft"
+msgstr "开始创作以创建您的初稿"
+
+msgid "hasVideoAttached ? \\"
+msgstr "有视频附件吗？ \\"
+
+msgid "Choose from video"
+msgstr "从视频中选择"
+
+msgid "Map Columns"
+msgstr "地图列"
+
+msgid ""
+"Match each CSV column to the corresponding post field. Leave unmapped "
+"columns as \"Skip\"."
+msgstr "将每个 CSV 列与相应的帖子字段匹配。将未映射的列保留为“跳过”。"
+
+msgid "- Skip -"
+msgstr "- 跳过 -"
+
+msgid "Validate &amp; Preview"
+msgstr "验证 &amp; 预览"
+
+msgid "Import Complete"
+msgstr "导入完成"
+
+#, python-format
+msgid "post%(created_count|pluralize)s created"
+msgstr "post%(created_count|pluralize)s 已创建"
+
+#, python-format
+msgid "row%(error_count|pluralize)s skipped"
+msgstr "row%(error_count|pluralize)s 已跳过"
+
+msgid "View Calendar"
+msgstr "查看日历"
+
+msgid "Import More"
+msgstr "进口更多"
+
+msgid "Validation Results"
+msgstr "验证结果"
+
+#, python-format
+msgid "%(valid_count)s valid"
+msgstr "%(valid_count)s 有效"
+
+#, python-format
+msgid "%(total_rows)s total rows"
+msgstr "%(total_rows)s 总行数"
+
+#, python-format
+msgid "Row %(err.row)s"
+msgstr "行%(err.row)s"
+
+msgid "Showing first 50 errors. Fix and re-upload for the full list."
+msgstr "显示前 50 个错误。修复并重新上传完整列表。"
+
+#, python-format
+msgid "Ready to import %(valid_count)s post%(valid_count|pluralize)s"
+msgstr "准备导入 %(valid_count)s post%(valid_count|pluralize)s"
+
+#, python-format
+msgid ""
+"%(errors|length)s invalid row%(errors|length|pluralize)s will be skipped."
+msgstr "%(errors|length)s 无效行%(errors|length|pluralize)s 将被跳过。"
+
+msgid "Confirm Import"
+msgstr "确认导入"
+
+msgid "No valid rows to import."
+msgstr "没有要导入的有效行。"
+
+msgid "Fix the errors in your CSV and re-upload."
+msgstr "修复 CSV 中的错误并重新上传。"
+
+msgid "View Entire Post"
+msgstr "查看整篇文章"
+
+msgid "No events found for this feed filter."
+msgstr "未找到此 Feed 过滤器的事件。"
+
+msgid "Explore Feeds"
+msgstr "探索动态"
+
+msgid "All feeds"
+msgstr "所有提要"
+
+msgid "Add Feed"
+msgstr "添加提要"
+
+msgid "Explore Curated Feeds"
+msgstr "探索精选提要"
+
+#, python-format
+msgid "%(total_event_count)s recent events"
+msgstr "%(total_event_count)s 最近事件"
+
+msgid "Delete Feed"
+msgstr "删除提要"
+
+msgid "from your feeds?"
+msgstr "从你的提要中？"
+
+msgid "Add your First Feed"
+msgstr "添加您的第一个 Feed"
+
+msgid ""
+"Subscribe to your favorite blogs, websites, or creators to get the latest "
+"content ideas."
+msgstr "订阅您最喜爱的博客、网站或创作者以获取最新的内容创意。"
+
+msgid "Add RSS Feed"
+msgstr "添加 RSS 源"
+
+msgid ""
+"RSS URLs are links to automatically get updates from a blog or news site.\n"
+"            The link is usually made up of the website's domain name, "
+"followed by \"/feed\" or \"/rss\"."
+msgstr ""
+"RSS URL 是自动从博客或新闻网站获取更新的链接。\n"
+"            该链接通常由网站的域名后跟“/feed”或“/rss”组成。"
+
+msgid "RSS URL"
+msgstr "RSS 网址"
+
+msgid "https://example.com/feed"
+msgstr "https://example.com/feed"
+
+msgid "New Group"
+msgstr "新集团"
+
+msgid "Column name..."
+msgstr "栏目名称..."
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add idea"
+msgstr "添加想法"
+
+msgid "Delete column"
+msgstr "删除列"
+
+msgid "Remove all ideas first"
+msgstr "首先删除所有想法"
+
+#, python-format
+msgid "%(asset.duration|floatformat:0)ss"
+msgstr "%(asset.duration|floatformat:0)ss"
+
+msgid "SHARED"
+msgstr "共享"
+
+msgid "No media yet"
+msgstr "还没有媒体"
+
+msgid "Upload files to your media library to use them here"
+msgstr "将文件上传到您的媒体库以在此处使用它们"
+
+#, python-format
+msgid "%(p.account.platform|title)s Preview"
+msgstr "%(p.account.platform|title)s 预览"
+
+msgid "Video thumbnail"
+msgstr "视频缩略图"
+
+msgid "Video title…"
+msgstr "视频标题..."
+
+msgid "0 views · Just now"
+msgstr "0 次浏览 · 刚刚"
+
+msgid "Write a caption…"
+msgstr "写一个标题..."
+
+msgid "View all comments"
+msgstr "查看所有评论"
+
+msgid "Just now"
+msgstr "刚才"
+
+msgid "Just now ·"
+msgstr "刚才·"
+
+msgid "Like"
+msgstr "喜欢"
+
+msgid "Share"
+msgstr "分享"
+
+msgid "Repost"
+msgstr "转发"
+
+msgid "Send"
+msgstr "发送"
+
+msgid "Upload a video"
+msgstr "上传视频"
+
+#, python-format
+msgid ""
+"Original sound - %(p.account.account_name|default:p.account.account_handle)s"
+msgstr "原声 - %(p.account.account_name|default:p.account.account_handle)s"
+
+msgid "just now"
+msgstr "刚才"
+
+msgid "Start a thread…"
+msgstr "启动一个线程..."
+
+msgid "now"
+msgstr "现在"
+
+msgid "What's up?"
+msgstr "怎么了？"
+
+msgid "No caption yet…"
+msgstr "还没有字幕……"
+
+#, python-format
+msgid "Caption exceeds %(p.char_limit)s character limit"
+msgstr "标题超过 %(p.char_limit)s 个字符限制"
+
+msgid "No preview yet"
+msgstr "还没有预览"
+
+msgid "Select a platform and start writing to see how your post will look"
+msgstr "选择一个平台并开始写作，看看您的帖子会是什么样子"
+
+msgid "Featured templates"
+msgstr "精选模板"
+
+msgid "Our top picks"
+msgstr "我们的首选"
+
+msgid "Helpful starting points to plan your next post."
+msgstr "计划下一篇文章的有用起点。"
+
+msgid "No templates yet."
+msgstr "还没有模板。"
+
+msgid "Save a post as a template to see it here."
+msgstr "将帖子另存为模板以便在此处查看。"
+
+msgid "No images available"
+msgstr "没有可用的图像"
+
+msgid "Upload images to your media library to use them as thumbnails"
+msgstr "将图像上传到您的媒体库以将其用作缩略图"
+
+msgid "Post Templates"
+msgstr "帖子模板"
+
+msgid "Reusable templates to speed up content creation."
+msgstr "可重复使用的模板可加快内容创建速度。"
+
+msgid "Back to Composer"
+msgstr "返回作曲家"
+
+#| msgid "Delete this workspace"
+msgid "Delete this template?"
+msgstr "删除此工作区"
+
+msgid "No templates yet"
+msgstr "还没有模板"
+
+msgid "Save a post as a template from the composer to get started."
+msgstr "将作者的帖子保存为模板以开始使用。"
+
+msgid "Inbox"
+msgstr "收件箱"
+
+msgid "My Queue"
+msgstr "我的队列"
+
+msgid "Unassigned"
+msgstr "未分配"
+
+msgid "Saved Replies"
+msgstr "已保存的回复"
+
+msgid "SLA Settings"
+msgstr "SLA 设置"
+
+msgid "SLA"
+msgstr "SLA"
+
+msgid "Mark Read"
+msgstr "马克·里德"
+
+msgid "Resolve"
+msgstr "解决"
+
+msgid "Archive"
+msgstr "存档"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Select a message to view details"
+msgstr "选择一条消息以查看详细信息"
+
+msgid "Back to Inbox"
+msgstr "返回收件箱"
+
+msgid "Unassign"
+msgstr "取消分配"
+
+msgid "Your inbox is empty"
+msgstr "您的收件箱是空的"
+
+msgid ""
+"Comments, mentions, and DMs from your connected accounts will appear here. "
+"Messages are synced every 5 minutes."
+msgstr "来自您关联帐户的评论、提及和私信将显示在此处。消息每 5 分钟同步一次。"
+
+msgid "Connect your social accounts to start receiving messages in your inbox."
+msgstr "连接您的社交帐户以开始在收件箱中接收消息。"
+
+msgid "Connect Accounts"
+msgstr "连接账户"
+
+msgid "No messages match your current filters."
+msgstr "没有消息符合您当前的过滤器。"
+
+msgid "Clear all filters"
+msgstr "清除所有过滤器"
+
+msgid "Search messages..."
+msgstr "搜索消息..."
+
+msgid "All platforms"
+msgstr "所有平台"
+
+msgid "All types"
+msgstr "所有类型"
+
+msgid "Mentions"
+msgstr "提及"
+
+msgid "DMs"
+msgstr "DM"
+
+msgid "Reviews"
+msgstr "评论"
+
+msgid "All statuses"
+msgstr "所有状态"
+
+msgid "Unread"
+msgstr "未读"
+
+msgid "Resolved"
+msgstr "已解决"
+
+msgid "Archived"
+msgstr "已存档"
+
+msgid "All sentiment"
+msgstr "所有的感悟"
+
+msgid "Positive"
+msgstr "积极"
+
+msgid "Neutral"
+msgstr "中性"
+
+msgid "Negative"
+msgstr "阴性"
+
+#, python-format
+msgid "%(child.received_at|timesince)s ago"
+msgstr "%(child.received_at|timesince)s 前"
+
+#, python-format
+msgid "%(message.received_at|timesince)s ago"
+msgstr "%(message.received_at|timesince)s 前"
+
+#, python-format
+msgid "%(note.created_at|timesince)s ago"
+msgstr "%(note.created_at|timesince)s 前"
+
+msgid "Reply"
+msgstr "回复"
+
+msgid "Internal Note"
+msgstr "内部注释"
+
+msgid "Write a reply..."
+msgstr "写一个回复..."
+
+#, python-format
+msgid ""
+"Reply will be posted on "
+"%(message.social_account.get_platform_display|default:message.social_account.platform|title)s"
+msgstr ""
+"回复将发布"
+"在%(message.social_account.get_platform_display|default:message.social_account.platform|title)s"
+
+msgid "Send Reply"
+msgstr "发送回复"
+
+msgid "Add an internal note (only visible to your team)..."
+msgstr "添加内部注释（仅您的团队可见）..."
+
+msgid "Add Note"
+msgstr "添加注释"
+
+#, python-format
+msgid "%(reply.sent_at|timesince)s ago"
+msgstr "%(reply.sent_at|timesince)s 前"
+
+msgid "Reply Body"
+msgstr "回复正文"
+
+msgid "Variables:"
+msgstr "变量："
+
+#, python-brace-format
+msgid "{sender_name}"
+msgstr "{sender_name}"
+
+#, python-brace-format
+msgid "{account_name}"
+msgstr "{account_name}"
+
+#, python-brace-format
+msgid "{post_url}"
+msgstr "{post_url}"
+
+msgid "Pre-written responses for common questions. Use variables:"
+msgstr "针对常见问题的预先写好的答复。使用变量："
+
+msgid "New Reply"
+msgstr "新回复"
+
+#| msgid "Delete this workspace"
+msgid "Delete this saved reply?"
+msgstr "删除此工作区"
+
+msgid "No saved replies yet"
+msgstr "尚未保存回复"
+
+msgid "Create reusable response templates for common questions."
+msgstr "为常见问题创建可重复使用的回复模板。"
+
+msgid "Set response time targets for your inbox."
+msgstr "为收件箱设置响应时间目标。"
+
+msgid "Enable SLA Timer"
+msgstr "启用 SLA 计时器"
+
+msgid "Show countdown timers and overdue badges on unresolved messages."
+msgstr "在未解决的消息上显示倒计时器和逾期徽章。"
+
+msgid "Target Response Time (minutes)"
+msgstr "目标响应时间（分钟）"
+
+msgid "Messages exceeding this time will show an \"Overdue\" badge."
+msgstr "超过此时间的消息将显示“逾期”徽章。"
+
+msgid "Auto-resolve on Reply"
+msgstr "回复时自动解决"
+
+msgid "Automatically mark messages as resolved when a reply is sent."
+msgstr "发送回复时自动将邮件标记为已解决。"
+
+msgid "Save Settings"
+msgstr "保存设置"
+
+msgid "Overall percentile"
+msgstr "总体百分位数"
+
+msgid "Composite rank vs other channels in the same niche."
+msgstr "与同一利基市场中的其他渠道的综合排名。"
+
+msgid "is the median;"
+msgstr "是中位数；"
+
+msgid ""
+"is top-tier engagement; below 30 means most niche peers\n"
+"                        outperform this channel on the engagement metrics "
+"below."
+msgstr ""
+"是顶级参与度；低于 30 意味着大多数利基同行\n"
+"                        在以下参与度指标上优于该渠道。"
+
+msgid "Niche"
+msgstr "利基"
+
+msgid "Engagement vs niche distribution"
+msgstr "参与度与利基分布"
+
+msgid ""
+"Each row compares one engagement ratio against the niche's\n"
+"                    distribution."
+msgstr ""
+"每一行将一个参与率与利基市场的参与率进行比较\n"
+"                    分布。"
+
+msgid "Views / sub"
+msgstr "观看次数/子"
+
+msgid ""
+"is recent views\n"
+"                    divided by subscriber count;"
+msgstr ""
+"是最近的浏览次数\n"
+"                    除以订户数量；"
+
+msgid "Likes / view"
+msgstr "喜欢/查看"
+
+msgid "Comments / view"
+msgstr "评论/查看"
+
+msgid ""
+"are the equivalent\n"
+"                    per-video ratios."
+msgstr ""
+"是等价的\n"
+"                    每个视频的比率。"
+
+msgid "Niche p50"
+msgstr "利基 p50"
+
+msgid ""
+"is the median niche channel on\n"
+"                    that ratio, half of the niche scores below it, half\n"
+"                    above. The"
+msgstr ""
+"是中位利基通道\n"
+"                    这个比率，一半的利基分数低于它，一半\n"
+"                    上面。的"
+
+msgid "pNN"
+msgstr "神经网络"
+
+msgid ""
+"readout on the right is\n"
+"                    your channel's percentile rank:"
+msgstr ""
+"右边的读数是\n"
+"                    您频道的百分位排名："
+
+msgid "p50"
+msgstr "p50"
+
+msgid ""
+"means\n"
+"                    you sit exactly at the niche median,"
+msgstr ""
+"意味着\n"
+"                    你恰好位于利基中位数，"
+
+msgid "p80"
+msgstr "p80"
+
+#, python-format
+msgid "means you outperform 80%% of niche peers,"
+msgstr "意味着你的表现优于 80%% 的利基同行，"
+
+msgid "p20"
+msgstr "p20"
+
+#, python-format
+msgid "means 80%% of peers outperform you."
+msgstr "意味着 80%% 的同事比你优秀。"
+
+msgid "You:"
+msgstr "你："
+
+#, python-format
+msgid "Niche p50: %(nichep.view_to_sub_ratio.p50|pretty_percent)s"
+msgstr "利基p50：%(nichep.view_to_sub_ratio.p50|pretty_percent)s"
+
+#, python-format
+msgid "p%(engp.view_to_sub_ratio)s"
+msgstr "p%(engp.view_to_sub_ratio)s"
+
+#, python-format
+msgid "Niche p50: %(nichep.like_to_view_ratio.p50|pretty_percent:2)s"
+msgstr "利基p50：%(nichep.like_to_view_ratio.p50|pretty_percent:2)s"
+
+#, python-format
+msgid "p%(engp.like_to_view_ratio)s"
+msgstr "p%(engp.like_to_view_ratio)s"
+
+#, python-format
+msgid "Niche p50: %(nichep.comment_to_view_ratio.p50|pretty_percent:2)s"
+msgstr "利基p50：%(nichep.comment_to_view_ratio.p50|pretty_percent:2)s"
+
+#, python-format
+msgid "p%(engp.comment_to_view_ratio)s"
+msgstr "p%(engp.comment_to_view_ratio)s"
+
+msgid "Title patterns"
+msgstr "标题模式"
+
+msgid "You"
+msgstr "你"
+
+msgid "Avg title length"
+msgstr "平均标题长度"
+
+#, python-format
+msgid "%(ch.mean_length_chars|floatformat:0)s characters"
+msgstr "%(ch.mean_length_chars|floatformat:0)s 个字符"
+
+#, python-format
+msgid "%(nc.mean_length_chars|floatformat:0)s characters"
+msgstr "%(nc.mean_length_chars|floatformat:0)s 个字符"
+
+msgid "Avg word count"
+msgstr "平均字数"
+
+msgid "Has a question mark"
+msgstr "有一个问号"
+
+msgid "Has a number"
+msgstr "有号码"
+
+msgid "Median uppercase ratio"
+msgstr "中位大写比例"
+
+msgid "Has an emoji"
+msgstr "有表情符号"
+
+msgid "Common phrases in niche"
+msgstr "利基市场中的常用短语"
+
+#, python-format
+msgid "+ %(niche.title_patterns.common_niche_phrases|length|add:\"-12\")s more"
+msgstr ""
+"+ %(niche.title_patterns.common_niche_phrases|length|add:\"-12\")s 更多"
+
+msgid "Exemplar channels in this niche"
+msgstr "该领域的典型渠道"
+
+msgid "views"
+msgstr "意见"
+
+msgid "likes"
+msgstr "喜欢"
+
+msgid "comments"
+msgstr "评论"
+
+msgid ""
+"Composite rank of this video's engagement vs recent\n"
+"                        videos in the same niche."
+msgstr ""
+"该视频的参与度与近期的综合排名\n"
+"                        同一领域的视频。"
+
+msgid ""
+"is the\n"
+"                        median;"
+msgstr ""
+"是\n"
+"                        中位数；"
+
+msgid ""
+"is top-tier; below 30\n"
+"                        means most niche videos outperform this one on the\n"
+"                        per-row metrics below."
+msgstr ""
+"是顶级的； 30岁以下\n"
+"                        意味着大多数小众视频的表现都优于这个视频\n"
+"                        下面的每行指标。"
+
+msgid ""
+"Each row compares this video's engagement ratio against\n"
+"                    the niche distribution."
+msgstr ""
+"每行都会将此视频的参与率与\n"
+"                    利基分布。"
+
+msgid ""
+"is\n"
+"                    views divided by the channel's subscriber count;"
+msgstr ""
+"是\n"
+"                    观看次数除以频道的订阅者数量；"
+
+msgid ""
+"are the per-video\n"
+"                    engagement rates."
+msgstr ""
+"是每个视频的\n"
+"                    参与率。"
+
+msgid ""
+"is the median niche video on\n"
+"                    that ratio. The"
+msgstr ""
+"是中位利基视频\n"
+"                    那个比例。的"
+
+msgid ""
+"readout on the right\n"
+"                    is this video's percentile rank:"
+msgstr ""
+"右侧读数\n"
+"                    该视频的百分位排名是："
+
+msgid ""
+"is\n"
+"                    exactly median,"
+msgstr ""
+"是\n"
+"                    正好是中位数，"
+
+#, python-format
+msgid ""
+"means it\n"
+"                    outperforms 80%% of niche videos,"
+msgstr ""
+"意味着它\n"
+"                    优于 80%% 的小众视频，"
+
+#, python-format
+msgid "means 80%% of niche videos outperform it."
+msgstr "意味着 80%% 的小众视频表现优于它。"
+
+msgid "This video:"
+msgstr "这个视频："
+
+msgid "Checks for niche-typical title conventions. The"
+msgstr "检查利基典型的标题约定。的"
+
+#, python-format
+msgid ""
+"column is the share of niche videos that follow each\n"
+"                    convention, so \"Has a number · Niche 16%%\" means 16%% "
+"of\n"
+"                    niche titles include a digit. The"
+msgstr ""
+"列是每个后续小众视频的份额\n"
+"                    惯例，所以“Has a number·Niche 16%%”意味着 16%%\n"
+"                    小众标题包含一个数字。的"
+
+msgid "fits niche patterns"
+msgstr "适合利基模式"
+
+msgid "flag at the bottom is the model's holistic verdict."
+msgstr "底部的标志是模型的整体判断。"
+
+msgid "This video"
+msgstr "这个视频"
+
+msgid "Title length"
+msgstr "标题长度"
+
+#, python-format
+msgid "%(v.length_chars|default:\",\")s characters"
+msgstr "%(v.length_chars|default:\",\")s 个字符"
+
+#, python-format
+msgid "%(nc.mean_length_chars|floatformat:0)s characters avg"
+msgstr "平均 %(nc.mean_length_chars|floatformat:0)s 个字符"
+
+msgid "Yes"
+msgstr "是的"
+
+msgid "No"
+msgstr "否"
+
+msgid "Fits niche patterns"
+msgstr "适合利基模式"
+
+msgid "Yes, follows niche conventions"
+msgstr "是的，遵循利基惯例"
+
+msgid "No, diverges from niche norms"
+msgstr "不，与利基规范不同"
+
+msgid "Couldn't save, billing service was unreachable. Please try again."
+msgstr "无法保存，无法访问计费服务。请再试一次。"
+
+#, python-format
+msgid "Saved · %(billing_email)s"
+msgstr "已保存·%(billing_email)s"
+
+msgid "Activation complete!"
+msgstr "激活完成！"
+
+msgid "Open Intelligence →"
+msgstr "开放情报 →"
+
+msgid ""
+"Setup couldn't complete after several attempts.\n"
+"  Please contact"
+msgstr ""
+"多次尝试后安装程序无法完成。\n"
+"  请联系"
+
+msgid "support@brightbean.xyz"
+msgstr "支持@brightbean.xyz"
+
+#, python-format
+msgid "Status: %(pending.get_status_display)s (attempt %(pending.attempts)s)"
+msgstr "状态：%(pending.get_status_display)s（尝试%(pending.attempts)s）"
+
+msgid ""
+"We couldn't authorize you for this org. Your role may have changed since\n"
+"  you started checkout. Please contact your org admin or"
+msgstr ""
+"我们无法授权您加入该组织。从那时起你的角色可能已经改变\n"
+"  你开始结帐了。请联系您的组织管理员或"
+
+#, python-format
+msgid "%(niche.gap_count)s gaps"
+msgstr "%(niche.gap_count)s 个缺口"
+
+msgid "No niches available."
+msgstr "没有可用的利基。"
+
+msgid "Subscription canceled"
+msgstr "订阅已取消"
+
+msgid "Resubscribe to start using Intelligence again."
+msgstr "重新订阅以再次开始使用 Intelligence。"
+
+msgid "Resubscribe →"
+msgstr "重新订阅 →"
+
+msgid "Setting up your Intelligence access…"
+msgstr "设置您的情报访问..."
+
+msgid "Stripe confirmed your payment. We're finalizing access."
+msgstr "Stripe 确认您的付款。我们正在最终确定访问权限。"
+
+msgid "Preview mode"
+msgstr "预览模式"
+
+msgid "Explore the playground, activate to use it"
+msgstr "探索游乐场，激活以使用它"
+
+msgid ""
+"Switch tabs, browse the inputs and try out the niche picker. When you're "
+"ready to actually score packaging, analyse hooks, or pull content gaps, "
+"activate Intelligence for"
+msgstr ""
+"切换选项卡、浏览输入并尝试利基选择器。当您准备好对包装进行实际评分、分析亮点"
+"或拉动内容差距时，请激活智能"
+
+msgid "Activate"
+msgstr "激活"
+
+msgid "Predict CTR before publishing"
+msgstr "发布前预测点击率"
+
+msgid "Score the first 6 s of any video"
+msgstr "对任意视频的前 6 秒进行评分"
+
+msgid "Benchmark vs niche peers"
+msgstr "基准与利基同行"
+
+msgid "636 niches · ranked content gaps"
+msgstr "636 个利基·排名内容差距"
+
+msgid "Starts at"
+msgstr "开始于"
+
+msgid "$19/month"
+msgstr "$19/月"
+
+msgid "· per-org subscription · cancel anytime."
+msgstr "· 按组织订阅 · 随时取消。"
+
+msgid "You're previewing Intelligence"
+msgstr "您正在预览情报"
+
+msgid ""
+"Switch tabs and explore. To actually score packaging, analyse hooks, or pull "
+"content gaps for"
+msgstr "切换选项卡并探索。对包装进行实际评分、分析亮点或拉动内容差距"
+
+msgid ", ask an owner or admin of the org to activate Intelligence."
+msgstr "，要求组织的所有者或管理员激活智能。"
+
+msgid "Your subscription is past due"
+msgstr "您的订阅已过期"
+
+msgid "Update your payment method to continue using Intelligence."
+msgstr "更新您的付款方式以继续使用 Intelligence。"
+
+msgid "Update payment →"
+msgstr "更新付款 →"
+
+msgid "Ask an org admin to update payment."
+msgstr "请求组织管理员更新付款。"
+
+msgid "Payment received"
+msgstr "已收到付款"
+
+msgid "Finish setting up Intelligence"
+msgstr "完成智能设置"
+
+msgid "Stripe confirmed your payment for"
+msgstr "Stripe 已确认您的付款"
+
+msgid ""
+". One click finishes provisioning your API access, you'll be back on the "
+"playground in a few seconds."
+msgstr "。单击一下即可完成 API 访问的配置，几秒钟后您将回到游乐场。"
+
+msgid "Complete activation"
+msgstr "完成激活"
+
+msgid "Setup couldn't complete"
+msgstr "安装程序无法完成"
+
+msgid ""
+"Stripe confirmed your payment but the billing service didn't finalize\n"
+"      access. Please contact support, we have your payment record."
+msgstr ""
+"Stripe 已确认您的付款，但计费服务尚未完成\n"
+"      访问。请联系支持人员，我们有您的付款记录。"
+
+msgid "Benchmark channel"
+msgstr "基准频道"
+
+msgid "5 credits"
+msgstr "5 学分"
+
+msgid ""
+"Compare a YouTube channel against its niche. Pulls the last ~10 videos, "
+"classifies the niche from titles, and percentile-ranks engagement + title "
+"patterns."
+msgstr ""
+"将 YouTube 频道与其利基市场进行比较。提取最后约 10 个视频，根据标题对利基市场"
+"进行分类，以及百分位排名参与度 + 标题模式。"
+
+msgid "Channel URL or @handle"
+msgstr "频道 URL 或 @handle"
+
+msgid "https://youtube.com/@theo-t3-gg"
+msgstr "https://youtube.com/@theo-t3-gg"
+
+msgid "Accepts"
+msgstr "接受"
+
+msgid "@handle"
+msgstr "@句柄"
+
+msgid "/channel/UC…"
+msgstr "/频道/UC…"
+
+msgid "/c/&lt;name&gt;"
+msgstr "/c/&lt;name&gt;"
+
+msgid ", or"
+msgstr ", 或"
+
+msgid "/user/&lt;legacy&gt;"
+msgstr "/用户/&lt;legacy&gt;"
+
+msgid "Benchmark"
+msgstr "基准测试"
+
+msgid "Benchmarking…"
+msgstr "基准测试..."
+
+msgid "Activate Intelligence"
+msgstr "激活智力"
+
+msgid "Result"
+msgstr "结果"
+
+msgid "Benchmark video"
+msgstr "基准视频"
+
+msgid "3 credits"
+msgstr "3学分"
+
+msgid ""
+"Score a single video against its niche. Returns engagement percentiles, "
+"title pattern fit, and a CTR-prediction residual (actual vs predicted "
+"velocity)."
+msgstr ""
+"根据其利基对单个视频进行评分。返回参与度百分位数、标题模式拟合度和 CTR 预测残"
+"差（实际速度与预测速度）。"
+
+msgid "Video URL"
+msgstr "视频网址"
+
+msgid "https://youtube.com/watch?v=dQw4w9WgXcQ"
+msgstr "https://youtube.com/watch?v=dQw4w9WgXcQ"
+
+msgid "watch?v=…"
+msgstr "观看？v=…"
+
+msgid "youtu.be/…"
+msgstr "youtu.be/…"
+
+msgid "shorts/…"
+msgstr "短裤/…"
+
+msgid "embed/…"
+msgstr "嵌入/…"
+
+msgid "List niches"
+msgstr "列出利基市场"
+
+msgid "1 credit"
+msgstr "1 学分"
+
+msgid ""
+"Browse the niche catalog. Returns every niche slug with its current gap "
+"count, useful for picking a niche to feed into"
+msgstr ""
+"浏览利基目录。返回每个利基 slug 及其当前间隙计数，对于选择要填充的利基很有用"
+
+msgid "Research content gaps"
+msgstr "研究内容差距"
+
+msgid "No parameters required."
+msgstr "无需参数。"
+
+msgid "Fetch niches"
+msgstr "获取壁龛"
+
+msgid "Fetching…"
+msgstr "正在获取…"
+
+msgid "Find ranked content opportunities in a niche. Returns gaps that are"
+msgstr "寻找利基市场中的排名内容机会。返回的间隙是"
+
+msgid "underserved"
+msgstr "服务不足的"
+
+msgid "(no quality coverage) or"
+msgstr "（无质量保障）或"
+
+msgid "stale"
+msgstr "陈旧的"
+
+msgid "(existing top videos are over a year old)."
+msgstr "（现有的热门视频已有一年多了）。"
+
+msgid "Choose a niche…"
+msgstr "选择一个利基..."
+
+msgid "Search niches…"
+msgstr "搜索利基市场..."
+
+msgid "Niches"
+msgstr "利基市场"
+
+msgid "No niches match."
+msgstr "没有匹配的利基。"
+
+#, python-format
+msgid ""
+"%(content_gap_niches|length)s niche%(content_gap_niches|length|pluralize)s "
+"available · click to browse, type to filter."
+msgstr ""
+"%(content_gap_niches|length)s 利基%(content_gap_niches|length|pluralize)s 可"
+"用 · 单击浏览，键入进行过滤。"
+
+msgid "ai_dev_tools"
+msgstr "ai_dev_tools"
+
+msgid ""
+"Couldn't load the niche catalog right now. Type a slug directly, or use the"
+msgstr "目前无法加载利基目录。直接输入 slug，或使用"
+
+msgid "tab to browse."
+msgstr "选项卡进行浏览。"
+
+msgid "Gap types"
+msgstr "间隙类型"
+
+msgid "competitive"
+msgstr "有竞争力的"
+
+msgid ""
+"Competitive is opt-in, usually means the topic already has plenty of strong "
+"recent videos."
+msgstr "竞争是选择加入，通常意味着该主题已经有大量近期的精彩视频。"
+
+msgid "Max gaps"
+msgstr "最大间隙"
+
+msgid "1–50 results."
+msgstr "1–50 个结果。"
+
+msgid "Min score"
+msgstr "最低分数"
+
+msgid "Drops gaps below this opportunity score."
+msgstr "将差距降至低于此机会分数。"
+
+msgid "Find gaps"
+msgstr "寻找差距"
+
+msgid "Querying…"
+msgstr "正在查询..."
+
+msgid "Score packaging"
+msgstr "分数包装"
+
+msgid "1-3 credit"
+msgstr "1-3学分"
+
+msgid ""
+"Score a YouTube packaging (title + thumbnail) for click-through potential. "
+"Provide one or both, combined is most accurate. Title-only is 1 credit, "
+"thumbnail-only is 2, combined is 3"
+msgstr ""
+"对 YouTube 包装（标题 + 缩略图）进行点击潜力评分。提供其中之一或两者，组合起"
+"来最准确。仅标题为 1 个学分，仅缩略图为 2 个学分，合计为 3 个学分"
+
+msgid "Video title"
+msgstr "视频标题"
+
+msgid "How I Built a $1M SaaS in 6 Months"
+msgstr "我如何在 6 个月内构建价值 100 万美元的 SaaS"
+
+msgid "Thumbnail"
+msgstr "缩略图"
+
+msgid "Click to upload"
+msgstr "点击上传"
+
+msgid "or drag and drop"
+msgstr "或拖放"
+
+msgid "JPEG, PNG or WebP · up to 5&nbsp;MB"
+msgstr "JPEG、PNG 或 WebP · 高达 5&nbsp;MB"
+
+msgid "Accepts JPEG/PNG/WebP under 5&nbsp;MB."
+msgstr "接受 5&nbsp;MB 以下的 JPEG/PNG/WebP。"
+
+msgid "Score"
+msgstr "分数"
+
+msgid "Scoring…"
+msgstr "得分…"
+
+msgid "Score video hook"
+msgstr "得分视频挂钩"
+
+msgid "10 credits"
+msgstr "10 学分"
+
+msgid ""
+"Analyze the first ~6 seconds of a YouTube video for hook quality, archetype, "
+"and improvement suggestions."
+msgstr "分析 YouTube 视频的前 6 秒，了解挂钩质量、原型和改进建议。"
+
+msgid "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+msgstr "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+msgid "Analyze hook"
+msgstr "分析钩子"
+
+msgid "Analyzing…"
+msgstr "正在分析……"
+
+msgid "First call on a video can take 25–29 s. Cache hits return instantly."
+msgstr "第一次视频通话可能需要 25-29 秒。缓存命中立即返回。"
+
+msgid "Example"
+msgstr "示例"
+
+msgid "Sample output. Activate to run with your own inputs."
+msgstr "样本输出。激活以使用您自己的输入运行。"
+
+msgid "Setup is still finalizing, refresh the page in a moment."
+msgstr "设置仍在完成中，请稍后刷新页面。"
+
+#, python-format
+msgid "%(result.gaps|length)s gap%(result.gaps|length|pluralize)s"
+msgstr "%(result.gaps|length)s 间隙%(result.gaps|length|pluralize)s"
+
+msgid "No gaps found for this niche."
+msgstr "没有发现这个利基市场的空白。"
+
+msgid "Opportunity"
+msgstr "机会"
+
+msgid "Current top title"
+msgstr "当前的顶级标题"
+
+msgid "Why it's a gap"
+msgstr "为何有间隙"
+
+msgid "Try these angles"
+msgstr "尝试这些角度"
+
+msgid "Signals"
+msgstr "信号"
+
+msgid "Demand"
+msgstr "需求"
+
+msgid ": search volume + trends interest. Higher is better."
+msgstr "：搜索量+趋势兴趣。越高越好。"
+
+msgid "Supply"
+msgstr "供应"
+
+msgid ": how saturated the niche is with existing content."
+msgstr "：现有内容对利基市场的饱和程度。"
+
+msgid "Lower"
+msgstr "较低"
+
+msgid "is better (less competition)."
+msgstr "更好（竞争更少）。"
+
+msgid "Recency"
+msgstr "新近度"
+
+msgid ": how fresh the top-ranking videos are."
+msgstr "：排名靠前的视频有多新鲜。"
+
+msgid "is better (existing content is older, ripe for refresh)."
+msgstr "更好（现有内容较旧，适合刷新）。"
+
+#, python-format
+msgid "Newest top video: %(ev.newest_quality_video_age_days)sd old"
+msgstr "最新热门视频：%(ev.newest_quality_video_age_days)sd 旧"
+
+#, python-format
+msgid ""
+"%(ev.trends_appearance_count)s trend "
+"signal%(ev.trends_appearance_count|pluralize)s"
+msgstr ""
+"%(ev.trends_appearance_count)s 趋势信"
+"号%(ev.trends_appearance_count|pluralize)s"
+
+#, python-format
+msgid ""
+"%(ev.residual_outlier_count)s "
+"overperformer%(ev.residual_outlier_count|pluralize)s"
+msgstr ""
+"%(ev.residual_outlier_count)s 表现优异%(ev.residual_outlier_count|pluralize)s"
+
+#, python-format
+msgid "Autocomplete rank #%(ev.autocomplete_rank)s"
+msgstr "自动完成排名#%(ev.autocomplete_rank)s"
+
+#, python-format
+msgid ""
+"Top %(ev.top_competitors|length)s "
+"competitor%(ev.top_competitors|length|pluralize)s ranking now"
+msgstr ""
+"前 %(ev.top_competitors|length)s 竞争对"
+"手%(ev.top_competitors|length|pluralize)s 现在排名"
+
+#, python-format
+msgid "· %(c.subscriber_count|humanize_count)s subs"
+msgstr "· %(c.subscriber_count|humanize_count)s 订阅者"
+
+#, python-format
+msgid "· %(c.view_count|humanize_count)s views"
+msgstr "· %(c.view_count|humanize_count)s 次浏览"
+
+#, python-format
+msgid "· %(c.age_days)sd old"
+msgstr "· %(c.age_days)sd 旧"
+
+msgid "Related searches"
+msgstr "相关搜索"
+
+msgid "Percentile"
+msgstr "百分位数"
+
+msgid ""
+"Where your packaging ranks against other recent videos in\n"
+"                    the same niche."
+msgstr ""
+"您的包装与其他最近的视频相比排名如何\n"
+"                    相同的利基。"
+
+#, python-format
+msgid ""
+"means your title +\n"
+"                    thumbnail combo is predicted to outperform 80%% of "
+"niche\n"
+"                    peers;"
+msgstr ""
+"意思是你的头衔+\n"
+"                    缩略图组合预计将优于 80%% 的利基产品\n"
+"                    同行；"
+
+msgid ""
+"is average; below 30 is a sign\n"
+"                    to iterate."
+msgstr ""
+"是平均水平；低于30是一个标志\n"
+"                    迭代。"
+
+msgid "Niche match"
+msgstr "利基匹配"
+
+#, python-format
+msgid ""
+"How confident the classifier is that your packaging\n"
+"                        belongs to this niche. Below ~50%% the percentile "
+"above\n"
+"                        is less reliable, you may be in a niche the model\n"
+"                        doesn't have strong distribution data for yet."
+msgstr ""
+"分类器对您的包装有多大信心\n"
+"                        属于这个利基市场。低于以上百分位的 ~50%%\n"
+"                        不太可靠，您可能属于该模型的利基市场\n"
+"                        目前还没有强有力的分布数据。"
+
+msgid "Overall hook score"
+msgstr "总钩得分"
+
+msgid ""
+"Composite 0–100 score for the first ~6 seconds. Weighted\n"
+"                        from clarity, specificity, tension, visual energy, "
+"and\n"
+"                        pace."
+msgstr ""
+"前 6 秒内综合 0-100 分。加权\n"
+"                        从清晰度、特异性、张力、视觉能量，以及\n"
+"                        步伐。"
+
+msgid "ships;"
+msgstr "船舶；"
+
+msgid "is fixable; below 40 needs a structural rewrite."
+msgstr "是可修复的； 40以下需要结构重写。"
+
+msgid "Archetype"
+msgstr "原型"
+
+msgid "Sub-scores"
+msgstr "分项分数"
+
+msgid "Transcript"
+msgstr "成绩单"
+
+msgid "Visual"
+msgstr "视觉"
+
+msgid "Strengths"
+msgstr "优势"
+
+msgid "Weaknesses"
+msgstr "弱点"
+
+msgid "Suggestions"
+msgstr "建议"
+
+msgid "Key differences vs niche-top hooks"
+msgstr "与利基顶级挂钩的主要区别"
+
+msgid "Activate Intelligence to use this"
+msgstr "激活情报来使用它"
+
+msgid ""
+"You're previewing the playground. Subscribe to score, benchmark, and pull "
+"content gaps for real."
+msgstr "您正在预览操场。订阅分数、基准测试并拉出真实的内容差距。"
+
+msgid "Couldn't complete the request"
+msgstr "无法完成请求"
+
+#, python-format
+msgid "code: %(code)s"
+msgstr "代码：%(code)s"
+
+msgid "Out of credits"
+msgstr "积分用完"
+
+msgid "Upgrade your plan or top up to keep using Intelligence."
+msgstr "升级您的计划或充值以继续使用 Intelligence。"
+
+msgid "Manage billing →"
+msgstr "管理账单 →"
+
+msgid "Slow down a sec"
+msgstr "慢一秒"
+
+#, python-format
+msgid "%(retry_after)ss"
+msgstr "%(retry_after)ss"
+
+msgid "Service unavailable"
+msgstr "服务不可用"
+
+msgid "We couldn't reach the Intelligence service. Try again in a moment."
+msgstr "我们无法联系到情报部门。稍后再试一次。"
+
+msgid "We couldn't activate Intelligence"
+msgstr "我们无法激活情报"
+
+msgid "Start a new checkout"
+msgstr "开始新的结账"
+
+msgid "Back to Intelligence"
+msgstr "返回情报"
+
+msgid "If Stripe charged you and you don't see your subscription, contact"
+msgstr "如果 Stripe 向您收费但您没有看到您的订阅，请联系"
+
+msgid "This activation isn't for your org"
+msgstr "此激活不适用于您的组织"
+
+#, python-format
+msgid ""
+"The Stripe payment was made for a different organization, OR your\n"
+"    role no longer permits managing billing for %(organization.name)s."
+msgstr ""
+"Stripe 付款是为其他组织进行的，或者您的\n"
+"    角色不再允许管理 %(organization.name)s 的计费。"
+
+msgid "If you believe this is a mistake, contact"
+msgstr "如果您认为这是一个错误，请联系"
+
+msgid "Billing"
+msgstr "计费"
+
+#, python-format
+msgid "Intelligence subscription for %(organization.name)s."
+msgstr "情报订阅号为%(organization.name)s。"
+
+msgid "Subscription"
+msgstr "订阅"
+
+msgid "Plan"
+msgstr "计划"
+
+msgid "Active · canceling"
+msgstr "有效 · 取消"
+
+msgid "Access ends"
+msgstr "访问结束"
+
+msgid ""
+"You'll keep full Intelligence access until then, after which the "
+"subscription will be canceled and tool calls will stop."
+msgstr ""
+"在此之前，您将保留完整的 Intelligence 访问权限，之后订阅将被取消，工具调用将"
+"停止。"
+
+msgid "Current period ends"
+msgstr "本期结束"
+
+msgid ""
+"Update your card, view past invoices, or cancel through Stripe's secure "
+"customer portal."
+msgstr "通过 Stripe 的安全客户门户更新您的卡、查看过去的发票或取消。"
+
+msgid "Manage payment + invoices in Stripe"
+msgstr "在 Stripe 中管理付款 + 发票"
+
+msgid "Billing contact"
+msgstr "计费联系人"
+
+msgid ""
+"Stripe invoices and failed-payment notices route to this email. Changing it "
+"also updates the Stripe Customer's contact email."
+msgstr ""
+"Stripe 发票和付款失败通知将发送至此电子邮件。更改它还会更新 Stripe 客户的联系"
+"电子邮件。"
+
+msgid "This deployment isn't authorized"
+msgstr "此部署未经授权"
+
+msgid ""
+"This Studio deployment is not registered for the hosted Intelligence\n"
+"    integration. If you're a fork operator running your own Stripe and\n"
+"    Intelligence stack, you need to register your deployment first."
+msgstr ""
+"此 Studio 部署未注册托管 Intelligence\n"
+"    整合。如果您是运行自己的 Stripe 的分叉操作员并且\n"
+"    智能堆栈，您需要先注册您的部署。"
+
+msgid "Contact"
+msgstr "联系方式"
+
+msgid "for details."
+msgstr "了解详情。"
+
+msgid ""
+"Stripe confirmed your payment. We're finishing the handshake with the\n"
+"    billing service, this usually takes a few seconds."
+msgstr ""
+"Stripe 确认您的付款。我们正在与以下人员完成握手\n"
+"    计费服务，这通常需要几秒钟。"
+
+msgid "Checking…"
+msgstr "正在检查..."
+
+msgid "YouTube packaging scoring, channel benchmarks, content-gap research."
+msgstr "YouTube 包装评分、频道基准、内容差距研究。"
+
+msgid "Credits"
+msgstr "制作人员"
+
+msgid "Billing →"
+msgstr "计费 →"
+
+msgid ""
+"YouTube packaging scoring, channel benchmarks, and content-gap research for"
+msgstr "YouTube 包装评分、频道基准和内容差距研究"
+
+msgid "Resume your checkout"
+msgstr "恢复结账"
+
+msgid "Someone in your org already started a checkout for this organization."
+msgstr "您组织中的某人已开始对该组织进行结账。"
+
+msgid "Continue to Stripe"
+msgstr "继续条纹"
+
+msgid "Discard Checkout Session"
+msgstr "放弃结账会话"
+
+msgid "Setting up your checkout…"
+msgstr "正在设置您的结账..."
+
+msgid ""
+"We're talking to the billing service. This usually finishes in a few seconds."
+msgstr "我们正在与计费服务商交谈。这通常会在几秒钟内完成。"
+
+msgid "No plans are available for this deployment."
+msgstr "没有可用于此部署的计划。"
+
+msgid "Contact support if you think this is a mistake."
+msgstr "如果您认为这是一个错误，请联系支持人员。"
+
+msgid "Choose a plan"
+msgstr "选择一个计划"
+
+msgid "Per-org subscription, billed monthly. Cancel anytime."
+msgstr "按组织订阅，按月计费。随时取消。"
+
+msgid "Most popular"
+msgstr "最受欢迎"
+
+msgid "/ month"
+msgstr "/月"
+
+msgid "credits / month"
+msgstr "学分/月"
+
+msgid "All six tools included"
+msgstr "包括所有六个工具"
+
+msgid ""
+"Invoices and payment-failure notices go here. This belongs to the "
+"organization, not to whoever clicks \"Continue\" below."
+msgstr ""
+"发票和付款失败通知位于此处。这属于该组织，而不属于单击下面的“继续”的任何人。"
+
+msgid ""
+"You'll be redirected to Stripe to complete payment securely. We never see "
+"your card details."
+msgstr ""
+"您将被重定向到 Stripe 以安全地完成付款。我们永远不会看到您的卡详细信息。"
+
+msgid "Account"
+msgstr "账户"
+
+msgid "Preferences"
+msgstr "偏好设置"
+
+msgid "Organization"
+msgstr "组织机构"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Workspaces"
+msgstr "工作空间"
+
+msgid "Team Members"
+msgstr "团队成员"
+
+msgid "All Calendars"
+msgstr "所有日历"
+
+msgid "Workspace Settings"
+msgstr "工作区设置"
+
+msgid "Social Accounts"
+msgstr "社交账号"
+
+msgid "Download"
+msgstr "下载"
+
+msgid "Delete asset?"
+msgstr "删除资产？"
+
+msgid "File size"
+msgstr "文件大小"
+
+msgid "Format"
+msgstr "格式"
+
+msgid "Dimensions"
+msgstr "尺寸"
+
+#, python-format
+msgid "%(asset.width)s &times; %(asset.height)spx"
+msgstr "%(asset.width)s &times; %(asset.height)spx"
+
+msgid "Duration"
+msgstr "持续时间"
+
+#, python-format
+msgid "%(asset.duration_seconds)ss"
+msgstr "%(asset.duration_seconds)ss"
+
+msgid "Uploaded"
+msgstr "已上传"
+
+msgid "Uploaded by"
+msgstr "上传者："
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Size"
+msgstr "尺寸"
+
+msgid "Previous"
+msgstr "上一页"
+
+#, python-format
+msgid "Page %(page.number)s of %(page.paginator.num_pages)s"
+msgstr "第 %(page.number)s 页（共 %(page.paginator.num_pages)s 页）"
+
+msgid "Next"
+msgstr "下一步"
+
+#, python-format
+msgid "%(asset.width)s&times;%(asset.height)s"
+msgstr "%(asset.width)s&times;%(asset.height)s"
+
+msgid "Cannot delete this asset"
+msgstr "无法删除该资产"
+
+#, python-format
+msgid ""
+"This media is referenced by %(referencing_posts|length)s scheduled "
+"post%(referencing_posts|pluralize)s. Remove it from those posts first."
+msgstr ""
+"此媒体由 %(referencing_posts|length)s 预定 "
+"post%(referencing_posts|pluralize)s 引用。首先将其从这些帖子中删除。"
+
+#, python-format
+msgid "&bull; %(post.caption|truncatechars:60)s"
+msgstr "&bull; %(post.caption|truncatechars:60)s"
+
+msgid "No media matches your search"
+msgstr "没有与您的搜索匹配的媒体"
+
+msgid "Try adjusting your search terms or filters."
+msgstr "尝试调整您的搜索词或过滤器。"
+
+msgid "Clear search"
+msgstr "清除搜索"
+
+msgid "No media uploaded yet"
+msgstr "尚未上传任何媒体"
+
+msgid "Upload images and videos to organize and reuse across your posts."
+msgstr "上传图像和视频以在您的帖子中进行整理和重复使用。"
+
+msgid "Upload media"
+msgstr "上传媒体"
+
+msgid "New Folder"
+msgstr "新建文件夹"
+
+msgid "Folder name..."
+msgstr "文件夹名称..."
+
+msgid "Create Folder"
+msgstr "创建文件夹"
+
+msgid "No folders yet"
+msgstr "还没有文件夹"
+
+msgid "Delete folder?"
+msgstr "删除文件夹？"
+
+msgid "? Assets will be moved to the parent folder."
+msgstr "？资源将被移至父文件夹。"
+
+msgid "Asset actions"
+msgstr "资产行动"
+
+msgid "Try adjusting your search terms."
+msgstr "尝试调整您的搜索词。"
+
+msgid "No shared media yet"
+msgstr "还没有共享媒体"
+
+msgid ""
+"Organization admins can upload assets here for use across all workspaces."
+msgstr "组织管理员可以在此处上传资产以供在所有工作区中使用。"
+
+msgid "Add tag..."
+msgstr "添加标签..."
+
+#, python-format
+msgid "v%(version.version_number)s"
+msgstr "v%(version.version_number)s"
+
+#, python-format
+msgid "Version %(version.version_number)s"
+msgstr "版本 %(version.version_number)s"
+
+msgid "Current"
+msgstr "当前"
+
+msgid "Restore"
+msgstr "恢复"
+
+msgid "No version history yet. Edits will appear here."
+msgstr "还没有版本历史。编辑内容将显示在此处。"
+
+msgid "Shared"
+msgstr "共享"
+
+#, python-format
+msgid "Edit - %(asset.original_filename)s"
+msgstr "编辑 - %(asset.original_filename)s"
+
+msgid "Crop"
+msgstr "作物"
+
+msgid "Rotate Left"
+msgstr "向左旋转"
+
+msgid "Rotate Right"
+msgstr "向右旋转"
+
+msgid "Flip H"
+msgstr "翻转 H"
+
+msgid "Flip V"
+msgstr "翻转V"
+
+msgid "Save as new version"
+msgstr "另存为新版本"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "sec"
+msgstr "秒"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Preview trim"
+msgstr "预览修剪"
+
+msgid "Trim &amp; save"
+msgstr "修剪 &amp; 保存"
+
+msgid "Editing is not available for this file type."
+msgstr "此文件类型无法进行编辑。"
+
+msgid "Back to library"
+msgstr "返回图书馆"
+
+msgid "Folders"
+msgstr "文件夹"
+
+msgid "New folder"
+msgstr "新建文件夹"
+
+msgid "All Media"
+msgstr "所有媒体"
+
+msgid "Starred"
+msgstr "已加星标"
+
+msgid "Search media..."
+msgstr "搜索媒体..."
+
+msgid "Newest first"
+msgstr "最新的优先"
+
+msgid "Oldest first"
+msgstr "最老的在前"
+
+msgid "Name A-Z"
+msgstr "名称 A-Z"
+
+msgid "Name Z-A"
+msgstr "名称 Z-A"
+
+msgid "Largest first"
+msgstr "最大的在前"
+
+msgid "Smallest first"
+msgstr "最小的在前"
+
+msgid "Drop files here to upload"
+msgstr "将文件拖放到此处进行上传"
+
+msgid "Images up to 20MB, videos up to 1GB"
+msgstr "图片最大 20MB，视频最大 1GB"
+
+msgid "Done"
+msgstr "完成"
+
+#, python-format
+msgid "Maximum %%s files per upload."
+msgstr "每次上传最多 %%s 个文件。"
+
+msgid "Organization-wide assets available to all workspaces."
+msgstr "组织范围内的资产可供所有工作区使用。"
+
+msgid "Upload to Shared"
+msgstr "上传至共享"
+
+msgid "Search shared assets..."
+msgstr "搜索共享资产..."
+
+#, python-format
+msgid "Join %(invitation.organization.name)s - Brightbean"
+msgstr "加入%(invitation.organization.name)s - Brightbean"
+
+#, python-format
+msgid "Join %(invitation.organization.name)s"
+msgstr "加入%(invitation.organization.name)s"
+
+#, python-format
+msgid ""
+"%(invitation.invited_by.display_name)s invited you to join their team on "
+"Brightbean."
+msgstr "%(invitation.invited_by.display_name)s邀请您加入他们的Brightbean团队。"
+
+msgid "Sign Up to Join"
+msgstr "注册加入"
+
+msgid "Log In to Join"
+msgstr "登录加入"
+
+#, python-format
+msgid "Join %(org_name)s on Brightbean"
+msgstr "加入 Brightbean %(org_name)s"
+
+msgid "Hi there,"
+msgstr "你好，"
+
+#, python-format
+msgid "%(invited_by.display_name)s has invited you to join"
+msgstr "%(invited_by.display_name)s诚邀您加入"
+
+msgid ""
+"as a team member. Click the button below to accept the invitation and get "
+"started."
+msgstr "作为团队成员。单击下面的按钮接受邀请并开始。"
+
+msgid "Accept Invitation"
+msgstr "接受邀请"
+
+msgid ""
+"This invitation expires in 7 days. If it expires, ask your team admin for a "
+"new one."
+msgstr "此邀请将在 7 天后过期。如果过期，请向您的团队管理员索取新的。"
+
+#, python-format
+msgid ""
+"You're receiving this because someone invited you to %(org_name)s on "
+"Brightbean."
+msgstr "您收到此消息是因为有人邀请您访问 Brightbean 上的 %(org_name)s。"
+
+msgid "Invitation Expired - Brightbean"
+msgstr "邀请已过期 - Brightbean"
+
+msgid "Invitation Expired"
+msgstr "邀请已过期"
+
+msgid ""
+"This invitation link is no longer valid. It may have expired or already been "
+"used. Please contact your organization admin to request a new invitation."
+msgstr ""
+"此邀请链接不再有效。它可能已过期或已被使用。请联系您的组织管理员以请求新的邀"
+"请。"
+
+msgid "Go to Brightbean"
+msgstr "前往布莱特比恩"
+
+msgid "Invite Team Member"
+msgstr "邀请团队成员"
+
+#, python-format
+msgid "Members (%(members_data|length)s)"
+msgstr "会员 (%(members_data|length)s)"
+
+msgid "No team members yet."
+msgstr "还没有团队成员。"
+
+msgid "No pending invitations."
+msgstr "没有待处理的邀请。"
+
+msgid "Admin"
+msgstr "管理员"
+
+msgid "Member"
+msgstr "会员"
+
+msgid "colleague@example.com"
+msgstr "同事@example.com"
+
+msgid "Organization Role"
+msgstr "组织角色"
+
+msgid "Assign to Workspaces"
+msgstr "分配给工作区"
+
+msgid "Select workspaces and roles for this team member."
+msgstr "为此团队成员选择工作空间和角色。"
+
+msgid ""
+"Tip: For external clients who only need portal access, use the Client Portal "
+"invite from workspace settings instead."
+msgstr ""
+"提示：对于仅需要门户访问权限的外部客户，请改用工作区设置中的客户门户邀请。"
+
+msgid "you"
+msgstr "你"
+
+msgid "Owner"
+msgstr "业主"
+
+msgid "Manage Workspaces"
+msgstr "管理工作区"
+
+msgid "Remove from Organization"
+msgstr "从组织中删除"
+
+#, python-format
+msgid "Workspaces - %(member.user.display_name)s"
+msgstr "工作区 - %(member.user.display_name)s"
+
+msgid "Loading..."
+msgstr "正在加载..."
+
+msgid "No workspaces available."
+msgstr "没有可用的工作空间。"
+
+msgid "Save Assignments"
+msgstr "保存作业"
+
+msgid "Daily Notification Digest"
+msgstr "每日通知摘要"
+
+msgid "Daily Digest"
+msgstr "每日文摘"
+
+#, python-format
+msgid ""
+"%(date|date:\"N j, Y\")s &mdash; %(notifications|length)s "
+"notification%(notifications|length|pluralize)s"
+msgstr ""
+"%(date|date:\"N j, Y\")s &mdash; %(notifications|length)s 通"
+"知%(notifications|length|pluralize)s"
+
+#, python-format
+msgid "%(n.created_at|timesince)s ago"
+msgstr "%(n.created_at|timesince)s 前"
+
+msgid "View All Notifications"
+msgstr "查看所有通知"
+
+msgid "You're receiving this daily digest."
+msgstr "您将收到这份每日摘要。"
+
+msgid "Manage preferences"
+msgstr "管理偏好设置"
+
+msgid "View Details"
+msgstr "查看详情"
+
+msgid "You received this because of your notification settings."
+msgstr "您收到此消息是因为您的通知设置。"
+
+#, python-format
+msgid "%(total)s notification%(total|pluralize)s total"
+msgstr "%(total)s 通知%(total|pluralize)s 总计"
+
+msgid "Mark all read"
+msgstr "标记全部已读"
+
+msgid "Read"
+msgstr "阅读"
+
+msgid "Clear filters"
+msgstr "清除过滤器"
+
+msgid "No notifications yet"
+msgstr "还没有通知"
+
+msgid "View all notifications"
+msgstr "查看所有通知"
+
+msgid "Mark read"
+msgstr "标记已读"
+
+#, python-format
+msgid "%(total)s notification%(total|pluralize)s"
+msgstr "%(total)s 通知%(total|pluralize)s"
+
+msgid "Prev"
+msgstr "上一篇"
+
+#, python-format
+msgid "Page %(page)s"
+msgstr "页 %(page)s"
+
+msgid "No notifications"
+msgstr "没有通知"
+
+msgid "Notification Preferences"
+msgstr "通知首选项"
+
+msgid "Choose which notifications you receive and how."
+msgstr "选择您接收哪些通知以及接收方式。"
+
+msgid "Event Channels"
+msgstr "事件通道"
+
+msgid "Toggle delivery channels for each event type."
+msgstr "切换每种事件类型的传递渠道。"
+
+msgid "Event"
+msgstr "活动"
+
+msgid "Quiet Hours & Digest"
+msgstr "安静时间和摘要"
+
+msgid "Suppress non-critical notifications during specific hours."
+msgstr "在特定时间禁止非关键通知。"
+
+msgid "Enable quiet hours"
+msgstr "启用安静时间"
+
+msgid "Non-critical notifications are held until quiet hours end."
+msgstr "非关键通知将保留到安静时间结束。"
+
+msgid "Start time"
+msgstr "开始时间"
+
+msgid "End time"
+msgstr "结束时间"
+
+msgid "Timezone"
+msgstr "时区"
+
+msgid "e.g. America/New_York"
+msgstr "例如美洲/纽约"
+
+msgid "IANA timezone identifier. Leave as UTC if unsure."
+msgstr "IANA 时区标识符。如果不确定，请保留 UTC。"
+
+msgid "Daily digest"
+msgstr "每日文摘"
+
+msgid ""
+"Batch email notifications into a single daily summary instead of individual "
+"emails."
+msgstr "将电子邮件通知批量放入单个每日摘要中，而不是单独的电子邮件。"
+
+msgid "Save Preferences"
+msgstr "保存首选项"
+
+#, python-format
+msgid "Authorize %(name)s?"
+msgstr "授权%(name)s？"
+
+#, python-format
+msgid ""
+"%(name)s wants to connect to your BrightBean Studio workspace with the "
+"following permissions:"
+msgstr "%(name)s 想要使用以下权限连接到您的 BrightBean Studio 工作区："
+
+msgid "Authorize"
+msgstr "授权"
+
+msgid "You can revoke this access at any time from BrightBean Studio."
+msgstr "您可以随时从 BrightBean Studio 撤销此访问权限。"
+
+msgid "Something went wrong"
+msgstr "出了点问题"
+
+msgid ""
+"Connection links are time-limited for security. Your agency can generate a "
+"new one at any time."
+msgstr "为了安全起见，连接链接有时间限制。您的机构可以随时生成新的。"
+
+msgid "Connect your social accounts"
+msgstr "连接您的社交帐户"
+
+msgid "to"
+msgstr "到"
+
+#, python-format
+msgid "on %(org.name)s"
+msgstr "于 %(org.name)s"
+
+msgid "Connected"
+msgstr "已连接"
+
+msgid "Connect"
+msgstr "连接"
+
+msgid "Connect Bluesky"
+msgstr "连接蓝天"
+
+msgid "Handle"
+msgstr "手柄"
+
+msgid "you.bsky.social"
+msgstr "you.bsky.social"
+
+msgid "App Password"
+msgstr "应用程序密码"
+
+msgid "Generate at Settings &rarr; App Passwords on Bluesky"
+msgstr "在 Bluesky 上的设置 &rarr; 应用程序密码中生成"
+
+msgid "Connect Mastodon"
+msgstr "连接乳齿象"
+
+msgid "Instance URL"
+msgstr "实例网址"
+
+msgid "mastodon.social"
+msgstr "乳齿象社会"
+
+#, python-format
+msgid ""
+"%(connected_accounts|length)s account%(connected_accounts|length|pluralize)s "
+"connected"
+msgstr ""
+"%(connected_accounts|length)s 帐号%(connected_accounts|length|pluralize)s 已"
+"连接"
+
+#, python-format
+msgid "Done &mdash; Notify %(org.name)s"
+msgstr "完成 &mdash; 通知 %(org.name)s"
+
+msgid "Need help? Contact"
+msgstr "需要帮助吗？联系方式"
+
+#, python-format
+msgid "This link expires %(link.expires_at|date:\"M j, Y\")s"
+msgstr "此链接过期 %(link.expires_at|date:\"M j, Y\")s"
+
+msgid "All done!"
+msgstr "全部完成！"
+
+msgid "has been notified and will take it from here."
+msgstr "已收到通知并将从这里获取。"
+
+msgid "You can close this page. Your agency team will be in touch soon."
+msgstr "您可以关闭此页面。您的代理团队将很快与您联系。"
+
+#, python-format
+msgid "%(org_name)s has invited you to connect your accounts to"
+msgstr "%(org_name)s 邀请您将您的帐户连接到"
+
+msgid "What to expect:"
+msgstr "期待什么："
+
+msgid "1. You'll see a list of platforms to connect."
+msgstr "1. 您将看到要连接的平台列表。"
+
+msgid "2. Click \"Connect\" on each one you'd like to link."
+msgstr "2. 在您想要链接的每个链接上单击“连接”。"
+
+msgid "3. Click \"Done\" when finished to notify your team."
+msgstr "3. 完成后单击“完成”以通知您的团队。"
+
+#, python-format
+msgid "This link expires %(expires_at|date:\"M j, Y\")s."
+msgstr "此链接过期时间为 %(expires_at|date:\"M j, Y\")s。"
+
+#, python-format
+msgid "Sent by %(org_name)s"
+msgstr "发送者：%(org_name)s"
+
+msgid "Get started"
+msgstr "开始使用"
+
+#, python-format
+msgid "%(checklist_completed_count)s of %(checklist_total_count)s complete"
+msgstr "%(checklist_completed_count)s 共 %(checklist_total_count)s 已完成"
+
+msgid "Minimize"
+msgstr "最小化"
+
+msgid "Dismiss checklist"
+msgstr "取消清单"
+
+msgid "Connection link created"
+msgstr "连接链接已创建"
+
+msgid "Copied!"
+msgstr "复制了！"
+
+#, python-format
+msgid ""
+"Expires %(link.expires_at|date:\"M j, Y\")s. Share this link with your "
+"client so they can connect their social accounts."
+msgstr ""
+"过期时间 %(link.expires_at|date:\"M j, Y\")s。与您的客户共享此链接，以便他们"
+"可以连接他们的社交帐户。"
+
+msgid "Organization Calendar"
+msgstr "组织日历"
+
+msgid "All Workspaces"
+msgstr "所有工作区"
+
+msgid "Workspaces:"
+msgstr "工作空间："
+
+#, python-format
+msgid "%(item.member_count)s member%(item.member_count|pluralize)s"
+msgstr "%(item.member_count)s 会员%(item.member_count|pluralize)s"
+
+msgid "No members assigned"
+msgstr "没有分配成员"
+
+msgid "Organization Name"
+msgstr "组织名称"
+
+msgid "Default Timezone"
+msgstr "默认时区"
+
+msgid "Used as the fallback for workspaces that don't set their own."
+msgstr "用作未设置自己的工作区的后备工作区。"
+
+msgid "Deletion scheduled"
+msgstr "已安排删除"
+
+msgid "This organization is scheduled for deletion on"
+msgstr "该组织计划删除于"
+
+msgid ""
+".\n"
+"                    All workspaces, posts, social accounts, media, and team "
+"data will be permanently removed after this date."
+msgstr ""
+"。\n"
+"                    在此日期之后，所有工作区、帖子、社交帐户、媒体和团队数据"
+"都将被永久删除。"
+
+msgid "Cancel Deletion"
+msgstr "取消删除"
+
+msgid "Delete Now"
+msgstr "立即删除"
+
+msgid "Delete immediately?"
+msgstr "立即删除？"
+
+msgid "This will permanently delete"
+msgstr "这将永久删除"
+
+msgid ""
+"right now, bypassing the 14-day grace period. This action cannot be undone."
+msgstr "现在，绕过 14 天的宽限期。此操作无法撤消。"
+
+msgid "All of the following will be permanently removed:"
+msgstr "以下所有内容将被永久删除："
+
+msgid "All workspaces and their settings"
+msgstr "所有工作区及其设置"
+
+msgid "All scheduled and published posts"
+msgstr "所有预定和发布的帖子"
+
+msgid "Connected social accounts and credentials"
+msgstr "连接的社交帐户和凭据"
+
+msgid "Media assets and files"
+msgstr "媒体资产和文件"
+
+msgid "Team memberships and invitations"
+msgstr "团队成员资格和邀请"
+
+msgid "Yes, delete permanently"
+msgstr "是的，永久删除"
+
+msgid "Delete this organization"
+msgstr "删除该组织"
+
+msgid ""
+"Permanently delete this organization and all of its data. This includes all "
+"workspaces, scheduled posts, social accounts, media assets, and team "
+"memberships."
+msgstr ""
+"永久删除该组织及其所有数据。这包括所有工作区、预定帖子、社交帐户、媒体资产和"
+"团队成员资格。"
+
+msgid "Delete Organization"
+msgstr "删除组织"
+
+msgid "Are you sure you want to delete"
+msgstr "您确定要删除吗"
+
+msgid ""
+"? This will schedule the organization for permanent deletion in 14 days."
+msgstr "？这将安排该组织在 14 天内永久删除。"
+
+msgid "Yes, delete this organization"
+msgstr "是的，删除该组织"
+
+#| msgid "Workspace Settings"
+msgid "Workspaces - Settings - Brightbean"
+msgstr "工作区设置"
+
+#| msgid "No workspaces yet"
+msgid "No workspaces yet."
+msgstr "还没有工作区"
+
+msgid "dev.to"
+msgstr "开发者"
+
+msgid "Settings management coming soon."
+msgstr "设置管理即将推出。"
+
+#, python-format
+msgid "Select Account%(pages|length|pluralize)s"
+msgstr "选择账户%(pages|length|pluralize)s"
+
+#, python-format
+msgid ""
+"Your %(platform|title)s login has access to multiple accounts. Select which "
+"one%(pages|length|pluralize)s to connect."
+msgstr ""
+"您的 %(platform|title)s 登录名可以访问多个帐户。选择要连接"
+"的%(pages|length|pluralize)s。"
+
+#, python-format
+msgid "%(page.followers_count)s followers"
+msgstr "%(page.followers_count)s 位关注者"
+
+msgid "Connect Selected"
+msgstr "连接选定的"
+
+msgid ""
+"Bluesky uses app passwords for authentication. You can create one in your "
+"Bluesky account settings."
+msgstr ""
+"Bluesky 使用应用程序密码进行身份验证。您可以在 Bluesky 帐户设置中创建一个。"
+
+msgid "yourname.bsky.social"
+msgstr "你的名字.bsky.social"
+
+msgid "Your full Bluesky handle including domain"
+msgstr "您的完整 Bluesky 帐号（包括域名）"
+
+msgid "xxxx-xxxx-xxxx-xxxx"
+msgstr "xxxx-xxxx-xxxx-xxxx"
+
+msgid ""
+"Generate one in Bluesky at Settings &rarr; Privacy and Security &rarr; App "
+"Passwords"
+msgstr "在 Bluesky 中生成一个，设置 &rarr; 隐私和安全 &rarr; 应用程序密码"
+
+msgid ""
+"App passwords are separate from your main password. They can be revoked at "
+"any time without affecting your Bluesky account."
+msgstr ""
+"应用程序密码与主密码分开。它们可以随时撤销，而不影响您的 Bluesky 帐户。"
+
+msgid "Back to Social Accounts"
+msgstr "返回社交帐户"
+
+msgid "Connect a Platform"
+msgstr "连接平台"
+
+msgid "Select a platform to connect your social media account."
+msgstr "选择一个平台来连接您的社交媒体帐户。"
+
+msgid "Not Configured"
+msgstr "未配置"
+
+msgid "Platform credentials not configured. Contact your administrator."
+msgstr "未配置平台凭据。请联系您的管理员。"
+
+msgid "Connect DEV.to"
+msgstr "将 DEV 连接到"
+
+msgid ""
+"DEV.to authenticates with a personal API key. Generate one under Settings "
+"&rarr; Extensions &rarr; DEV Community API Keys."
+msgstr ""
+"DEV.to 使用个人 API 密钥进行身份验证。在设置 &rarr; 扩展 &rarr; DEV 社区 API "
+"密钥下生成一个。"
+
+msgid "API Key"
+msgstr "API密钥"
+
+msgid "your DEV.to API key"
+msgstr "您的 DEV.to API 密钥"
+
+msgid ""
+"Create one at DEV.to &rarr; Settings &rarr; Extensions &rarr; DEV Community "
+"API Keys."
+msgstr "在 DEV.to &rarr; 设置 &rarr; 扩展 &rarr; DEV 社区 API 密钥中创建一个。"
+
+msgid ""
+"Posts publish as DEV.to articles (title + Markdown body). The API key can be "
+"revoked at any time from your DEV.to settings."
+msgstr ""
+"帖子发布为 DEV.to 文章（标题 + Markdown 正文）。 API 密钥可以随时从您的 DEV."
+"to 设置中撤销。"
+
+msgid "Manage connected social media accounts for this workspace."
+msgstr "管理此工作区的已连接社交媒体帐户。"
+
+msgid "Connect Account"
+msgstr "连接账户"
+
+#, python-format
+msgid ""
+"%(accounts|length)s account%(accounts|length|pluralize)s connected.\n"
+"            Health checks run automatically every 6 hours."
+msgstr ""
+"%(accounts|length)s 帐户%(accounts|length|pluralize)s 已连接。\n"
+"            健康检查每 6 小时自动运行一次。"
+
+msgid "No accounts connected yet"
+msgstr "尚未连接账户"
+
+msgid ""
+"Connect your social media accounts to start publishing content, tracking "
+"engagement, and managing your inbox."
+msgstr "连接您的社交媒体帐户以开始发布内容、跟踪参与度和管理收件箱。"
+
+msgid "Connect Your First Account"
+msgstr "连接您的第一个帐户"
+
+msgid ""
+"Mastodon is federated, enter your profile URL to begin the connection "
+"process."
+msgstr "Mastodon 已联合，输入您的个人资料 URL 即可开始连接过程。"
+
+msgid "Profile URL"
+msgstr "个人资料网址"
+
+msgid "https://"
+msgstr "https://"
+
+msgid "mastodon.social@yourusername"
+msgstr "mastodon.social@yourusername"
+
+msgid "The Mastodon instance where your account lives"
+msgstr "您的帐户所在的 Mastodon 实例"
+
+msgid ""
+"After entering your instance URL, you'll be redirected to your Mastodon "
+"instance to authorize access. We request"
+msgstr "输入实例 URL 后，您将被重定向到 Mastodon 实例以授权访问。我们要求"
+
+msgid "read"
+msgstr "读"
+
+msgid "write"
+msgstr "写"
+
+msgid ", and"
+msgstr ", 和"
+
+msgid "follow"
+msgstr "关注"
+
+msgid "permissions."
+msgstr "权限。"
+
+msgid "Continue to Mastodon"
+msgstr "继续前往乳齿象"
+
+#, python-format
+msgid "%(account.follower_count|format_number)s followers"
+msgstr "%(account.follower_count|format_number)s 位关注者"
+
+msgid "Disconnect"
+msgstr "断开连接"
+
+msgid "? Historical data will be preserved."
+msgstr "？历史数据将被保留。"
+
+#| msgid "Disconnect"
+msgid "Disconnecting…"
+msgstr "断开连接"
+
+msgid ""
+"Set recurring time slots for when queued posts are automatically published."
+msgstr "设置自动发布排队帖子的重复时间段。"
+
+msgid "Click to edit"
+msgstr "点击编辑"
+
+msgid "Remove slot"
+msgstr "移除插槽"
+
+msgid "Add time slot"
+msgstr "添加时段"
+
+msgid "Token Expiring"
+msgstr "令牌到期"
+
+msgid "Disconnected"
+msgstr "已断开连接"
+
+msgid "Error"
+msgstr "错误"
+
+msgid ""
+"Control whether posts need to be reviewed before they can be scheduled or "
+"published."
+msgstr "控制帖子在安排或发布之前是否需要经过审核。"
+
+msgid ""
+"Reviewers are workspace members with the \"Approve posts\" permission.\n"
+"        Manage them on the"
+msgstr ""
+"审阅者是具有“批准帖子”权限的工作区成员。\n"
+"        管理它们"
+
+msgid "Members"
+msgstr "会员"
+
+msgid "page."
+msgstr "页。"
+
+msgid "No workspaces yet. Create your first workspace to get started."
+msgstr "还没有工作区。创建您的第一个工作区以开始使用。"
+
+msgid "New workspace"
+msgstr "新工作区"
+
+msgid "Workspace Name"
+msgstr "工作区名称"
+
+msgid "Remove logo"
+msgstr "删除标志"
+
+msgid "Logo"
+msgstr "标志"
+
+msgid "JPEG, PNG, WebP, or GIF. Max 2 MB."
+msgstr "JPEG、PNG、WebP 或 GIF。最大 2 MB。"
+
+msgid "Upload Logo"
+msgstr "上传标志"
+
+msgid "Restore Workspace"
+msgstr "恢复工作区"
+
+msgid "Archive Workspace"
+msgstr "存档工作区"
+
+msgid "Archive this workspace"
+msgstr "存档此工作区"
+
+msgid "Are you sure you want to archive"
+msgstr "您确定要存档吗"
+
+msgid ""
+"? The workspace will be hidden from the sidebar and no new posts can be "
+"created. All existing data will be preserved."
+msgstr "？工作区将从侧边栏隐藏，并且无法创建新帖子。所有现有数据将被保留。"
+
+msgid "Yes, archive this workspace"
+msgstr "是的，存档此工作区"
+
+msgid "Delete this workspace"
+msgstr "删除此工作区"
+
+msgid "Delete Workspace"
+msgstr "删除工作区"
+
+msgid "Are you sure you want to permanently delete"
+msgstr "您确定要永久删除"
+
+msgid "? This action cannot be undone."
+msgstr "？此操作无法撤消。"
+
+msgid "Connected social accounts"
+msgstr "连接的社交帐户"
+
+msgid "Workspace memberships"
+msgstr "工作区会员资格"
+
+msgid "Yes, delete this workspace"
+msgstr "是的，删除该工作区"

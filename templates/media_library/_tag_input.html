@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load common_extras %}
 {% comment %}Tag editor with autocomplete. Expects: asset, workspace, is_shared_library, is_admin{% endcomment %}
 
@@ -27,7 +28,7 @@
            @keydown.backspace="inputValue === '' && removeTag(tags.length - 1)"
            @input.debounce.300ms="fetchSuggestions()"
            @click.away="suggestions = []"
-           placeholder="Add tag..."
+           placeholder="{% translate 'Add tag...' %}"
            class="input-focus w-full text-xs px-3 py-2 border rounded-lg outline-none">
 
     <!-- Autocomplete dropdown -->

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% load static %}
 
 {% block title %}Connect your accounts - {{ org.name }}{% endblock %}
@@ -27,12 +28,12 @@
             letter-spacing: -0.02em;
             line-height: 1.2;
             margin-bottom: 8px;
-        ">Connect your social accounts</h1>
+        ">{% blocktranslate %}Connect your social accounts{% endblocktranslate %}</h1>
         <p style="
             font-size: 0.9375rem;
             color: var(--text-secondary);
             line-height: 1.6;
-        ">to <strong style="color: var(--text-primary); font-weight: 600;">{{ workspace.name }}</strong> on {{ org.name }}</p>
+        ">{% blocktranslate %}to{% endblocktranslate %} <strong style="color: var(--text-primary); font-weight: 600;">{{ workspace.name }}</strong> {% blocktranslate %}on {{ org.name }}{% endblocktranslate %}</p>
     </div>
 
     <!-- Error message -->
@@ -112,7 +113,7 @@
             {% if value in connected_accounts %}
             <div style="display: flex; align-items: center; gap: 8px;">
                 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--success-700);">
-                    Connected
+                    {% blocktranslate %}Connected{% endblocktranslate %}
                 </span>
                 <div style="
                     width: 28px; height: 28px;
@@ -141,7 +142,7 @@
                     box-shadow: var(--shadow-primary);
                     transition: all 200ms ease;
                 ">
-                    Connect
+                    {% blocktranslate %}Connect{% endblocktranslate %}
                     <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </button>
                 <div x-show="showForm" x-cloak style="
@@ -157,10 +158,10 @@
                         box-shadow: var(--shadow-xl);
                     ">
                         {% csrf_token %}
-                        <h3 style="font-size: 0.9375rem; font-weight: 600; color: var(--text-primary); margin-bottom: 16px;">Connect Bluesky</h3>
+                        <h3 style="font-size: 0.9375rem; font-weight: 600; color: var(--text-primary); margin-bottom: 16px;">{% blocktranslate %}Connect Bluesky{% endblocktranslate %}</h3>
                         <div style="margin-bottom: 12px;">
-                            <label style="font-size: 0.8125rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 4px;">Handle</label>
-                            <input type="text" name="handle" placeholder="you.bsky.social" required style="
+                            <label style="font-size: 0.8125rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 4px;">{% blocktranslate %}Handle{% endblocktranslate %}</label>
+                            <input type="text" name="handle" placeholder="{% translate 'you.bsky.social' %}" required style="
                                 width: 100%; padding: 9px 12px;
                                 font-size: 0.875rem; font-family: var(--font-body);
                                 border: 1.5px solid var(--border);
@@ -171,7 +172,7 @@
                             ">
                         </div>
                         <div style="margin-bottom: 16px;">
-                            <label style="font-size: 0.8125rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 4px;">App Password</label>
+                            <label style="font-size: 0.8125rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 4px;">{% blocktranslate %}App Password{% endblocktranslate %}</label>
                             <input type="password" name="app_password" required style="
                                 width: 100%; padding: 9px 12px;
                                 font-size: 0.875rem; font-family: var(--font-body);
@@ -181,7 +182,7 @@
                                 color: var(--text-primary);
                                 outline: none;
                             ">
-                            <p style="font-size: 0.6875rem; color: var(--text-tertiary); margin-top: 4px;">Generate at Settings &rarr; App Passwords on Bluesky</p>
+                            <p style="font-size: 0.6875rem; color: var(--text-tertiary); margin-top: 4px;">{% blocktranslate %}Generate at Settings &rarr; App Passwords on Bluesky{% endblocktranslate %}</p>
                         </div>
                         <div style="display: flex; gap: 8px; justify-content: flex-end;">
                             <button type="button" @click="showForm = false" style="
@@ -189,13 +190,13 @@
                                 background: var(--surface-0); color: var(--text-primary);
                                 border: 1px solid var(--border); border-radius: var(--radius-full);
                                 cursor: pointer;
-                            ">Cancel</button>
+                            ">{% blocktranslate %}Cancel{% endblocktranslate %}</button>
                             <button type="submit" style="
                                 padding: 8px 16px; font-size: 0.8125rem; font-weight: 600;
                                 background: var(--primary); color: white;
                                 border: none; border-radius: var(--radius-full);
                                 cursor: pointer; box-shadow: var(--shadow-primary);
-                            ">Connect</button>
+                            ">{% blocktranslate %}Connect{% endblocktranslate %}</button>
                         </div>
                     </form>
                 </div>
@@ -215,7 +216,7 @@
                     box-shadow: var(--shadow-primary);
                     transition: all 200ms ease;
                 ">
-                    Connect
+                    {% blocktranslate %}Connect{% endblocktranslate %}
                     <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </button>
                 <div x-show="showForm" x-cloak style="
@@ -231,10 +232,10 @@
                         box-shadow: var(--shadow-xl);
                     ">
                         {% csrf_token %}
-                        <h3 style="font-size: 0.9375rem; font-weight: 600; color: var(--text-primary); margin-bottom: 16px;">Connect Mastodon</h3>
+                        <h3 style="font-size: 0.9375rem; font-weight: 600; color: var(--text-primary); margin-bottom: 16px;">{% blocktranslate %}Connect Mastodon{% endblocktranslate %}</h3>
                         <div style="margin-bottom: 16px;">
-                            <label style="font-size: 0.8125rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 4px;">Instance URL</label>
-                            <input type="text" name="instance_url" placeholder="mastodon.social" required style="
+                            <label style="font-size: 0.8125rem; font-weight: 600; color: var(--text-primary); display: block; margin-bottom: 4px;">{% blocktranslate %}Instance URL{% endblocktranslate %}</label>
+                            <input type="text" name="instance_url" placeholder="{% translate 'mastodon.social' %}" required style="
                                 width: 100%; padding: 9px 12px;
                                 font-size: 0.875rem; font-family: var(--font-body);
                                 border: 1.5px solid var(--border);
@@ -250,13 +251,13 @@
                                 background: var(--surface-0); color: var(--text-primary);
                                 border: 1px solid var(--border); border-radius: var(--radius-full);
                                 cursor: pointer;
-                            ">Cancel</button>
+                            ">{% blocktranslate %}Cancel{% endblocktranslate %}</button>
                             <button type="submit" style="
                                 padding: 8px 16px; font-size: 0.8125rem; font-weight: 600;
                                 background: var(--primary); color: white;
                                 border: none; border-radius: var(--radius-full);
                                 cursor: pointer; box-shadow: var(--shadow-primary);
-                            ">Connect</button>
+                            ">{% blocktranslate %}Connect{% endblocktranslate %}</button>
                         </div>
                     </form>
                 </div>
@@ -278,7 +279,7 @@
                     box-shadow: var(--shadow-primary);
                     transition: all 200ms ease;
                 ">
-                    Connect
+                    {% blocktranslate %}Connect{% endblocktranslate %}
                     <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </button>
             </form>
@@ -301,7 +302,7 @@
         font-size: 0.8125rem; color: var(--success-700); font-weight: 500;
     ">
         <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-        {{ connected_accounts|length }} account{{ connected_accounts|length|pluralize }} connected
+        {% blocktranslate %}{{ connected_accounts|length }} account{{ connected_accounts|length|pluralize }} connected{% endblocktranslate %}
     </div>
     {% endif %}
 
@@ -320,7 +321,7 @@
             box-shadow: var(--shadow-primary);
             transition: all 200ms ease;
         ">
-            Done &mdash; Notify {{ org.name }}
+            {% blocktranslate %}Done &mdash; Notify {{ org.name }}{% endblocktranslate %}
             <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
         </button>
     </form>
@@ -328,10 +329,10 @@
     <!-- Footer help -->
     <div style="text-align: center; margin-top: 28px;">
         <p style="font-size: 0.75rem; color: var(--text-ghost); line-height: 1.6;">
-            Need help? Contact <strong style="color: var(--text-tertiary);">{{ org.name }}</strong>
+            {% blocktranslate %}Need help? Contact{% endblocktranslate %} <strong style="color: var(--text-tertiary);">{{ org.name }}</strong>
         </p>
         <p style="font-size: 0.6875rem; color: var(--text-ghost); margin-top: 4px;">
-            This link expires {{ link.expires_at|date:"M j, Y" }}
+            {% blocktranslate %}This link expires {{ link.expires_at|date:"M j, Y" }}{% endblocktranslate %}
         </p>
     </div>
 </div>

@@ -1,10 +1,11 @@
 {% extends "layouts/workspace_settings.html" %}
+{% load i18n %}
 {% block title %}Approvals - {{ workspace.name }} - Brightbean{% endblock %}
 {% block content %}
 <div class="max-w-2xl">
-    <h2 class="text-xl font-semibold mb-2" style="color: var(--text-primary);">Approvals</h2>
+    <h2 class="text-xl font-semibold mb-2" style="color: var(--text-primary);">{% blocktranslate %}Approvals{% endblocktranslate %}</h2>
     <p class="text-sm mb-8" style="color: var(--text-secondary);">
-        Control whether posts need to be reviewed before they can be scheduled or published.
+        {% blocktranslate %}Control whether posts need to be reviewed before they can be scheduled or published.{% endblocktranslate %}
     </p>
 
     <form method="POST" x-data="{ mode: '{{ workspace.approval_workflow_mode }}' }">
@@ -53,14 +54,14 @@
         <button type="submit"
                 class="btn-neutral px-5 py-2 text-sm font-medium rounded-full cursor-pointer whitespace-nowrap"
                 style="background: var(--neutral-100); color: var(--text-primary);">
-            Save Changes
+            {% blocktranslate %}Save Changes{% endblocktranslate %}
         </button>
         {% endif %}
     </form>
 
     <p class="text-xs mt-6" style="color: var(--text-tertiary);">
-        Reviewers are workspace members with the "Approve posts" permission.
-        Manage them on the <a href="{% url 'members:list' %}" class="underline" style="color: var(--text-secondary);">Members</a> page.
+        {% blocktranslate %}Reviewers are workspace members with the "Approve posts" permission.
+        Manage them on the{% endblocktranslate %} <a href="{% url 'members:list' %}" class="underline" style="color: var(--text-secondary);">{% blocktranslate %}Members{% endblocktranslate %}</a> {% blocktranslate %}page.{% endblocktranslate %}
     </p>
 </div>
 {% endblock %}

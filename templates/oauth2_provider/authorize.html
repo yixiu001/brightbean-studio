@@ -1,4 +1,5 @@
 {% extends "oauth2_provider/base.html" %}
+{% load i18n %}
 {% load i18n static %}
 
 {% block title %}Authorize {{ application.name|default:"an app" }} · BrightBean Studio{% endblock title %}
@@ -6,7 +7,7 @@
 {% block content %}
     <div class="bb-head">
         <img src="{% static 'img/brightbean-studio-logo.webp' %}" alt="BrightBean Studio" class="bb-logo">
-        <span class="bb-eyebrow">BrightBean · Studio</span>
+        <span class="bb-eyebrow">{% blocktranslate %}BrightBean · Studio{% endblocktranslate %}</span>
     </div>
 
     <div class="bb-card">

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% load static i18n %}
 
 {% block title %}Sign Out - Brightbean{% endblock %}
@@ -14,10 +15,10 @@
             </svg>
         </div>
         <h1 class="text-2xl font-bold tracking-tight" style="color: var(--text-primary);">
-            Sign out
+            {% blocktranslate %}Sign out{% endblocktranslate %}
         </h1>
         <p class="text-sm mt-1" style="color: var(--text-secondary);">
-            Are you sure you want to sign out?
+            {% blocktranslate %}Are you sure you want to sign out?{% endblocktranslate %}
         </p>
     </div>
 
@@ -25,8 +26,8 @@
         <form method="post" action="{% url 'account_logout' %}">
             {% csrf_token %}
             <div class="flex gap-3">
-                <a href="/" class="btn-outline flex-1">Cancel</a>
-                <button type="submit" class="btn-brand flex-1">Sign Out</button>
+                <a href="/" class="btn-outline flex-1">{% blocktranslate %}Cancel{% endblocktranslate %}</a>
+                <button type="submit" class="btn-brand flex-1">{% blocktranslate %}Sign Out{% endblocktranslate %}</button>
             </div>
         </form>
     </div>

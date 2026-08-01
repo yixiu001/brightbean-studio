@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% load static i18n account allauth %}
 
 {% block title %}Confirm Email - Brightbean{% endblock %}
@@ -14,7 +15,7 @@
             </svg>
         </div>
         <h1 class="text-2xl font-bold tracking-tight" style="color: var(--text-primary);">
-            Confirm email address
+            {% blocktranslate %}Confirm email address{% endblocktranslate %}
         </h1>
     </div>
 
@@ -24,36 +25,36 @@
             {% user_display confirmation.email_address.user as user_display %}
             {% if can_confirm %}
                 <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-secondary);">
-                    Please confirm that
+                    {% blocktranslate %}Please confirm that{% endblocktranslate %}
                     <strong style="color: var(--text-primary);">{{ confirmation.email_address.email }}</strong>
-                    is your email address.
+                    {% blocktranslate %}is your email address.{% endblocktranslate %}
                 </p>
                 {% url 'account_confirm_email' confirmation.key as action_url %}
                 <form method="post" action="{{ action_url }}">
                     {% csrf_token %}
                     {{ redirect_field }}
                     <button type="submit" class="btn-brand">
-                        Confirm Email
+                        {% blocktranslate %}Confirm Email{% endblocktranslate %}
                     </button>
                 </form>
             {% else %}
                 <div class="alert-error">
-                    This email address has already been confirmed by a different account.
+                    {% blocktranslate %}This email address has already been confirmed by a different account.{% endblocktranslate %}
                 </div>
             {% endif %}
         {% else %}
             <div class="alert-error mb-4">
-                This confirmation link has expired or is invalid.
+                {% blocktranslate %}This confirmation link has expired or is invalid.{% endblocktranslate %}
             </div>
             <a href="{% url 'account_login' %}" class="btn-brand">
-                Sign In
+                {% blocktranslate %}Sign In{% endblocktranslate %}
             </a>
         {% endif %}
     </div>
 
     <!-- Footer link -->
     <p class="text-center text-sm mt-6" style="color: var(--text-secondary);">
-        <a href="{% url 'account_login' %}" class="font-semibold hover:underline" style="color: var(--primary);">Back to sign in</a>
+        <a href="{% url 'account_login' %}" class="font-semibold hover:underline" style="color: var(--primary);">{% blocktranslate %}Back to sign in{% endblocktranslate %}</a>
     </p>
 </div>
 {% endblock %}

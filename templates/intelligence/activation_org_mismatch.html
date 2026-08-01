@@ -1,15 +1,16 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% block page_title %}Org mismatch{% endblock %}
 {% block content %}
 <div class="max-w-xl mx-auto py-16 px-4 text-center">
-  <h1 class="text-xl font-semibold text-stone-900 mb-2">This activation isn't for your org</h1>
+  <h1 class="text-xl font-semibold text-stone-900 mb-2">{% blocktranslate %}This activation isn't for your org{% endblocktranslate %}</h1>
   <p class="text-sm text-stone-600 mb-6">
-    The Stripe payment was made for a different organization, OR your
-    role no longer permits managing billing for {{ organization.name }}.
+    {% blocktranslate %}The Stripe payment was made for a different organization, OR your
+    role no longer permits managing billing for {{ organization.name }}.{% endblocktranslate %}
   </p>
   <p class="text-sm text-stone-600">
-    If you believe this is a mistake, contact
-    <a href="mailto:support@brightbean.xyz" class="text-orange-600 hover:text-orange-700">support@brightbean.xyz</a>.
+    {% blocktranslate %}If you believe this is a mistake, contact{% endblocktranslate %}
+    <a href="mailto:support@brightbean.xyz" class="text-orange-600 hover:text-orange-700">{% blocktranslate %}support@brightbean.xyz{% endblocktranslate %}</a>.
   </p>
 </div>
 {% endblock %}

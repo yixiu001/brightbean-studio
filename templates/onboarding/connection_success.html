@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load i18n %}
 
 {% block title %}Accounts Connected - {{ org.name }}{% endblock %}
 
@@ -26,7 +27,7 @@
         color: var(--text-primary);
         letter-spacing: -0.015em;
         margin-bottom: 8px;
-    ">All done!</h1>
+    ">{% blocktranslate %}All done!{% endblocktranslate %}</h1>
 
     <p style="
         font-size: 0.9375rem;
@@ -47,7 +48,7 @@
         line-height: 1.6;
         margin-bottom: 28px;
     ">
-        <strong style="color: var(--text-secondary);">{{ org.name }}</strong> has been notified and will take it from here.
+        <strong style="color: var(--text-secondary);">{{ org.name }}</strong> {% blocktranslate %}has been notified and will take it from here.{% endblocktranslate %}
     </p>
 
     <div style="
@@ -59,7 +60,7 @@
         color: var(--brand-800);
         line-height: 1.6;
     ">
-        You can close this page. Your agency team will be in touch soon.
+        {% blocktranslate %}You can close this page. Your agency team will be in touch soon.{% endblocktranslate %}
     </div>
 </div>
 {% endblock %}
