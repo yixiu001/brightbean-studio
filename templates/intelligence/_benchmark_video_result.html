@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load intelligence_extras %}
 {% with video=result.video niche=result.niche %}
 <div>
@@ -12,12 +13,12 @@
             {% endif %}
         </div>
         <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-stone-600">
-            <span><span class="font-semibold text-stone-900 tabular-nums">{{ video.view_count|humanize_count }}</span> views</span>
+            <span><span class="font-semibold text-stone-900 tabular-nums">{{ video.view_count|humanize_count }}</span> {% blocktranslate %}views{% endblocktranslate %}</span>
             {% if video.like_count is not None %}
-            <span><span class="font-semibold text-stone-900 tabular-nums">{{ video.like_count|humanize_count }}</span> likes</span>
+            <span><span class="font-semibold text-stone-900 tabular-nums">{{ video.like_count|humanize_count }}</span> {% blocktranslate %}likes{% endblocktranslate %}</span>
             {% endif %}
             {% if video.comment_count is not None %}
-            <span><span class="font-semibold text-stone-900 tabular-nums">{{ video.comment_count|humanize_count }}</span> comments</span>
+            <span><span class="font-semibold text-stone-900 tabular-nums">{{ video.comment_count|humanize_count }}</span> {% blocktranslate %}comments{% endblocktranslate %}</span>
             {% endif %}
         </div>
     </div>
@@ -26,15 +27,15 @@
     <div class="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1 items-start mt-2 pt-4 border-t border-stone-100">
         <div>
             <div class="flex items-center">
-                <div class="text-xs uppercase tracking-wide text-stone-500">Overall percentile</div>
+                <div class="text-xs uppercase tracking-wide text-stone-500">{% blocktranslate %}Overall percentile{% endblocktranslate %}</div>
                 <span class="intel-tooltip-trigger" tabindex="0" aria-describedby="bv-overall-tooltip">
                     <span class="intel-tooltip-icon" aria-hidden="true">?</span>
                     <span id="bv-overall-tooltip" role="tooltip" class="intel-tooltip" data-align="left">
-                        Composite rank of this video's engagement vs recent
-                        videos in the same niche. <strong>50</strong> is the
-                        median; <strong>80+</strong> is top-tier; below 30
+                        {% blocktranslate %}Composite rank of this video's engagement vs recent
+                        videos in the same niche.{% endblocktranslate %} <strong>50</strong> {% blocktranslate %}is the
+                        median;{% endblocktranslate %} <strong>80+</strong> {% blocktranslate %}is top-tier; below 30
                         means most niche videos outperform this one on the
-                        per-row metrics below.
+                        per-row metrics below.{% endblocktranslate %}
                     </span>
                 </span>
             </div>
@@ -43,7 +44,7 @@
             </div>
         </div>
         <div class="text-right">
-            <div class="text-xs uppercase tracking-wide text-stone-500">Niche</div>
+            <div class="text-xs uppercase tracking-wide text-stone-500">{% blocktranslate %}Niche{% endblocktranslate %}</div>
             <div class="mt-1 text-sm font-medium text-stone-900">{{ niche.name }}</div>
             <div class="mt-1 flex items-center gap-2 justify-end flex-wrap">
                 <span class="text-[11px] font-mono px-1.5 py-0.5 rounded bg-stone-100 text-stone-500">{{ niche.slug }}</span>
@@ -71,23 +72,23 @@
     {% if video.engagement_percentiles %}
     <div class="mt-6 pt-5 border-t border-stone-100">
         <div class="flex items-center mb-3">
-            <div class="text-xs uppercase tracking-wide text-stone-500">Engagement vs niche distribution</div>
+            <div class="text-xs uppercase tracking-wide text-stone-500">{% blocktranslate %}Engagement vs niche distribution{% endblocktranslate %}</div>
             <span class="intel-tooltip-trigger" tabindex="0" aria-describedby="bv-engagement-tooltip">
                 <span class="intel-tooltip-icon" aria-hidden="true">?</span>
                 <span id="bv-engagement-tooltip" role="tooltip" class="intel-tooltip" data-align="left">
-                    Each row compares this video's engagement ratio against
-                    the niche distribution. <strong>Views / sub</strong> is
-                    views divided by the channel's subscriber count;
-                    <strong>Likes / view</strong> and
-                    <strong>Comments / view</strong> are the per-video
-                    engagement rates.
+                    {% blocktranslate %}Each row compares this video's engagement ratio against
+                    the niche distribution.{% endblocktranslate %} <strong>{% blocktranslate %}Views / sub{% endblocktranslate %}</strong> {% blocktranslate %}is
+                    views divided by the channel's subscriber count;{% endblocktranslate %}
+                    <strong>{% blocktranslate %}Likes / view{% endblocktranslate %}</strong> {% blocktranslate %}and{% endblocktranslate %}
+                    <strong>{% blocktranslate %}Comments / view{% endblocktranslate %}</strong> {% blocktranslate %}are the per-video
+                    engagement rates.{% endblocktranslate %}
                     <br><br>
-                    <strong>Niche p50</strong> is the median niche video on
-                    that ratio. The <strong>pNN</strong> readout on the right
-                    is this video's percentile rank: <strong>p50</strong> is
-                    exactly median, <strong>p80</strong> means it
-                    outperforms 80% of niche videos, <strong>p20</strong>
-                    means 80% of niche videos outperform it.
+                    <strong>{% blocktranslate %}Niche p50{% endblocktranslate %}</strong> {% blocktranslate %}is the median niche video on
+                    that ratio. The{% endblocktranslate %} <strong>{% blocktranslate %}pNN{% endblocktranslate %}</strong> {% blocktranslate %}readout on the right
+                    is this video's percentile rank:{% endblocktranslate %} <strong>{% blocktranslate %}p50{% endblocktranslate %}</strong> {% blocktranslate %}is
+                    exactly median,{% endblocktranslate %} <strong>{% blocktranslate %}p80{% endblocktranslate %}</strong> {% blocktranslate %}means it
+                    outperforms 80% of niche videos,{% endblocktranslate %} <strong>{% blocktranslate %}p20{% endblocktranslate %}</strong>
+                    {% blocktranslate %}means 80% of niche videos outperform it.{% endblocktranslate %}
                 </span>
             </span>
         </div>
@@ -95,45 +96,45 @@
             {% with eng=video.engagement engp=video.engagement_percentiles nichep=niche.engagement %}
 
             <div class="grid grid-cols-[120px_1fr_60px] items-center gap-3">
-                <div class="text-xs font-medium text-stone-700">Views / sub</div>
+                <div class="text-xs font-medium text-stone-700">{% blocktranslate %}Views / sub{% endblocktranslate %}</div>
                 <div>
                     <div class="h-1.5 rounded-full bg-stone-100 overflow-hidden">
                         <div class="h-full rounded-full" style="width: {{ engp.view_to_sub_ratio|default:0 }}%; background: var(--primary);"></div>
                     </div>
                     <div class="flex justify-between mt-1 text-[11px] text-stone-500 tabular-nums">
-                        <span>This video: <span class="text-stone-900 font-medium">{{ eng.view_to_sub_ratio|pretty_percent }}</span></span>
-                        <span>Niche p50: {{ nichep.view_to_sub_ratio.p50|pretty_percent }}</span>
+                        <span>{% blocktranslate %}This video:{% endblocktranslate %} <span class="text-stone-900 font-medium">{{ eng.view_to_sub_ratio|pretty_percent }}</span></span>
+                        <span>{% blocktranslate %}Niche p50: {{ nichep.view_to_sub_ratio.p50|pretty_percent }}{% endblocktranslate %}</span>
                     </div>
                 </div>
-                <div class="text-xs font-mono tabular-nums text-stone-900 text-right">p{{ engp.view_to_sub_ratio }}</div>
+                <div class="text-xs font-mono tabular-nums text-stone-900 text-right">{% blocktranslate %}p{{ engp.view_to_sub_ratio }}{% endblocktranslate %}</div>
             </div>
 
             <div class="grid grid-cols-[120px_1fr_60px] items-center gap-3">
-                <div class="text-xs font-medium text-stone-700">Likes / view</div>
+                <div class="text-xs font-medium text-stone-700">{% blocktranslate %}Likes / view{% endblocktranslate %}</div>
                 <div>
                     <div class="h-1.5 rounded-full bg-stone-100 overflow-hidden">
                         <div class="h-full rounded-full" style="width: {{ engp.like_to_view_ratio|default:0 }}%; background: var(--primary);"></div>
                     </div>
                     <div class="flex justify-between mt-1 text-[11px] text-stone-500 tabular-nums">
-                        <span>This video: <span class="text-stone-900 font-medium">{{ eng.like_to_view_ratio|pretty_percent:2 }}</span></span>
-                        <span>Niche p50: {{ nichep.like_to_view_ratio.p50|pretty_percent:2 }}</span>
+                        <span>{% blocktranslate %}This video:{% endblocktranslate %} <span class="text-stone-900 font-medium">{{ eng.like_to_view_ratio|pretty_percent:2 }}</span></span>
+                        <span>{% blocktranslate %}Niche p50: {{ nichep.like_to_view_ratio.p50|pretty_percent:2 }}{% endblocktranslate %}</span>
                     </div>
                 </div>
-                <div class="text-xs font-mono tabular-nums text-stone-900 text-right">p{{ engp.like_to_view_ratio }}</div>
+                <div class="text-xs font-mono tabular-nums text-stone-900 text-right">{% blocktranslate %}p{{ engp.like_to_view_ratio }}{% endblocktranslate %}</div>
             </div>
 
             <div class="grid grid-cols-[120px_1fr_60px] items-center gap-3">
-                <div class="text-xs font-medium text-stone-700">Comments / view</div>
+                <div class="text-xs font-medium text-stone-700">{% blocktranslate %}Comments / view{% endblocktranslate %}</div>
                 <div>
                     <div class="h-1.5 rounded-full bg-stone-100 overflow-hidden">
                         <div class="h-full rounded-full" style="width: {{ engp.comment_to_view_ratio|default:0 }}%; background: var(--primary);"></div>
                     </div>
                     <div class="flex justify-between mt-1 text-[11px] text-stone-500 tabular-nums">
-                        <span>This video: <span class="text-stone-900 font-medium">{{ eng.comment_to_view_ratio|pretty_percent:2 }}</span></span>
-                        <span>Niche p50: {{ nichep.comment_to_view_ratio.p50|pretty_percent:2 }}</span>
+                        <span>{% blocktranslate %}This video:{% endblocktranslate %} <span class="text-stone-900 font-medium">{{ eng.comment_to_view_ratio|pretty_percent:2 }}</span></span>
+                        <span>{% blocktranslate %}Niche p50: {{ nichep.comment_to_view_ratio.p50|pretty_percent:2 }}{% endblocktranslate %}</span>
                     </div>
                 </div>
-                <div class="text-xs font-mono tabular-nums text-stone-900 text-right">p{{ engp.comment_to_view_ratio }}</div>
+                <div class="text-xs font-mono tabular-nums text-stone-900 text-right">{% blocktranslate %}p{{ engp.comment_to_view_ratio }}{% endblocktranslate %}</div>
             </div>
 
             {% endwith %}
@@ -151,64 +152,64 @@
     {% if video.title_patterns and niche.title_patterns %}
     <div class="mt-6 pt-5 border-t border-stone-100">
         <div class="flex items-center mb-3">
-            <div class="text-xs uppercase tracking-wide text-stone-500">Title patterns</div>
+            <div class="text-xs uppercase tracking-wide text-stone-500">{% blocktranslate %}Title patterns{% endblocktranslate %}</div>
             <span class="intel-tooltip-trigger" tabindex="0" aria-describedby="bv-title-tooltip">
                 <span class="intel-tooltip-icon" aria-hidden="true">?</span>
                 <span id="bv-title-tooltip" role="tooltip" class="intel-tooltip" data-align="left">
-                    Checks for niche-typical title conventions. The <strong>Niche</strong>
-                    column is the share of niche videos that follow each
+                    {% blocktranslate %}Checks for niche-typical title conventions. The{% endblocktranslate %} <strong>{% blocktranslate %}Niche{% endblocktranslate %}</strong>
+                    {% blocktranslate %}column is the share of niche videos that follow each
                     convention, so "Has a number · Niche 16%" means 16% of
-                    niche titles include a digit. The <strong>fits niche patterns</strong>
-                    flag at the bottom is the model's holistic verdict.
+                    niche titles include a digit. The{% endblocktranslate %} <strong>{% blocktranslate %}fits niche patterns{% endblocktranslate %}</strong>
+                    {% blocktranslate %}flag at the bottom is the model's holistic verdict.{% endblocktranslate %}
                 </span>
             </span>
         </div>
         <div class="grid grid-cols-[1fr_auto_auto] gap-x-6 gap-y-2 text-xs">
             <div></div>
-            <div class="text-stone-500 font-medium uppercase tracking-wide text-right">This video</div>
-            <div class="text-stone-500 font-medium uppercase tracking-wide text-right">Niche</div>
+            <div class="text-stone-500 font-medium uppercase tracking-wide text-right">{% blocktranslate %}This video{% endblocktranslate %}</div>
+            <div class="text-stone-500 font-medium uppercase tracking-wide text-right">{% blocktranslate %}Niche{% endblocktranslate %}</div>
 
             {% with v=video.title_patterns nc=niche.title_patterns %}
-            <div class="text-stone-700">Title length</div>
-            <div class="text-right text-stone-900 font-medium tabular-nums">{{ v.length_chars|default:"," }} characters</div>
-            <div class="text-right text-stone-500 tabular-nums">{{ nc.mean_length_chars|floatformat:0 }} characters avg</div>
+            <div class="text-stone-700">{% blocktranslate %}Title length{% endblocktranslate %}</div>
+            <div class="text-right text-stone-900 font-medium tabular-nums">{% blocktranslate %}{{ v.length_chars|default:"," }} characters{% endblocktranslate %}</div>
+            <div class="text-right text-stone-500 tabular-nums">{% blocktranslate %}{{ nc.mean_length_chars|floatformat:0 }} characters avg{% endblocktranslate %}</div>
 
-            <div class="text-stone-700">Has a question mark</div>
+            <div class="text-stone-700">{% blocktranslate %}Has a question mark{% endblocktranslate %}</div>
             <div class="text-right tabular-nums">
                 {% if v.has_question %}
-                <span class="inline-flex items-center gap-1 text-green-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Yes</span>
+                <span class="inline-flex items-center gap-1 text-green-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> {% blocktranslate %}Yes{% endblocktranslate %}</span>
                 {% else %}
-                <span class="text-stone-400">No</span>
+                <span class="text-stone-400">{% blocktranslate %}No{% endblocktranslate %}</span>
                 {% endif %}
             </div>
             <div class="text-right text-stone-500 tabular-nums">{{ nc.share_with_question_mark|pretty_percent:0 }}</div>
 
-            <div class="text-stone-700">Has a number</div>
+            <div class="text-stone-700">{% blocktranslate %}Has a number{% endblocktranslate %}</div>
             <div class="text-right tabular-nums">
                 {% if v.has_number %}
-                <span class="inline-flex items-center gap-1 text-green-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Yes</span>
+                <span class="inline-flex items-center gap-1 text-green-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> {% blocktranslate %}Yes{% endblocktranslate %}</span>
                 {% else %}
-                <span class="text-stone-400">No</span>
+                <span class="text-stone-400">{% blocktranslate %}No{% endblocktranslate %}</span>
                 {% endif %}
             </div>
             <div class="text-right text-stone-500 tabular-nums">{{ nc.share_with_number|pretty_percent:0 }}</div>
 
-            <div class="text-stone-700">Has an emoji</div>
+            <div class="text-stone-700">{% blocktranslate %}Has an emoji{% endblocktranslate %}</div>
             <div class="text-right tabular-nums">
                 {% if v.has_emoji %}
-                <span class="inline-flex items-center gap-1 text-green-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Yes</span>
+                <span class="inline-flex items-center gap-1 text-green-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> {% blocktranslate %}Yes{% endblocktranslate %}</span>
                 {% else %}
-                <span class="text-stone-400">No</span>
+                <span class="text-stone-400">{% blocktranslate %}No{% endblocktranslate %}</span>
                 {% endif %}
             </div>
             <div class="text-right text-stone-500 tabular-nums">{{ nc.share_with_emoji|pretty_percent:0 }}</div>
 
-            <div class="text-stone-700">Fits niche patterns</div>
+            <div class="text-stone-700">{% blocktranslate %}Fits niche patterns{% endblocktranslate %}</div>
             <div class="text-right tabular-nums col-span-2">
                 {% if v.fits_niche_patterns %}
-                <span class="inline-flex items-center gap-1 text-green-700 font-medium"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Yes, follows niche conventions</span>
+                <span class="inline-flex items-center gap-1 text-green-700 font-medium"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> {% blocktranslate %}Yes, follows niche conventions{% endblocktranslate %}</span>
                 {% else %}
-                <span class="inline-flex items-center gap-1 text-amber-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> No, diverges from niche norms</span>
+                <span class="inline-flex items-center gap-1 text-amber-700"><svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> {% blocktranslate %}No, diverges from niche norms{% endblocktranslate %}</span>
                 {% endif %}
             </div>
             {% endwith %}
@@ -223,7 +224,7 @@
     {% endcomment %}
     {% if niche.title_patterns.common_niche_phrases %}
     <div class="mt-6 pt-5 border-t border-stone-100">
-        <div class="text-xs uppercase tracking-wide text-stone-500 mb-3">Common phrases in niche</div>
+        <div class="text-xs uppercase tracking-wide text-stone-500 mb-3">{% blocktranslate %}Common phrases in niche{% endblocktranslate %}</div>
         <div class="flex flex-wrap gap-1.5">
             {% for ph in niche.title_patterns.common_niche_phrases|slice:":12" %}
             <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[11px]
@@ -239,7 +240,7 @@
         </div>
         {% if niche.title_patterns.common_niche_phrases|length > 12 %}
         <div class="mt-2 text-[11px] text-stone-400">
-            + {{ niche.title_patterns.common_niche_phrases|length|add:"-12" }} more
+            {% blocktranslate %}+ {{ niche.title_patterns.common_niche_phrases|length|add:"-12" }} more{% endblocktranslate %}
         </div>
         {% endif %}
     </div>

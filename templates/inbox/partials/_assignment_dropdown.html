@@ -1,3 +1,4 @@
+{% load i18n %}
 <!-- Assignment dropdown -->
 <div x-data="{ assignOpen: false }" class="relative">
     <button @click="assignOpen = !assignOpen"
@@ -23,7 +24,7 @@
                 @click="assignOpen = false"
                 class="w-full text-left px-3 py-2 text-[12px] text-stone-500 hover:bg-stone-50 transition-colors flex items-center gap-2">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-            Unassign
+            {% blocktranslate %}Unassign{% endblocktranslate %}
         </button>
         <div class="border-t border-stone-100 my-0.5"></div>
         {% endif %}

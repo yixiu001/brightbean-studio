@@ -1,3 +1,4 @@
+{% load i18n %}
 {% comment %}
 Cascade partial rendered into the issuance modal when a workspace is picked.
 Context:
@@ -7,7 +8,7 @@ Context:
 {% endcomment %}
 <div>
     <label class="block text-sm font-semibold mb-1" style="color: var(--text-primary);">
-        Connected accounts
+        {% blocktranslate %}Connected accounts{% endblocktranslate %}
     </label>
     {% if accounts %}
     <div class="space-y-1.5">
@@ -22,19 +23,19 @@ Context:
         {% endfor %}
     </div>
     <p class="text-xs mt-1" style="color: var(--text-tertiary);">
-        Select at least one. The key can only act on these accounts.
+        {% blocktranslate %}Select at least one. The key can only act on these accounts.{% endblocktranslate %}
     </p>
     {% else %}
     <p class="text-xs px-3 py-2 rounded-lg"
        style="background: var(--warning-soft, #FEF3C7); color: var(--warning-700, #B45309);">
-        No connected accounts in this workspace. Connect one before issuing a key.
+        {% blocktranslate %}No connected accounts in this workspace. Connect one before issuing a key.{% endblocktranslate %}
     </p>
     {% endif %}
 </div>
 
 <div>
     <label class="block text-sm font-semibold mb-1" style="color: var(--text-primary);">
-        Permissions
+        {% blocktranslate %}Permissions{% endblocktranslate %}
     </label>
     {% if grantable_permissions %}
     <div class="space-y-1.5">
@@ -51,12 +52,12 @@ Context:
         {% endfor %}
     </div>
     <p class="text-xs mt-1" style="color: var(--text-tertiary);">
-        Only permissions you currently hold in this workspace are listed.
+        {% blocktranslate %}Only permissions you currently hold in this workspace are listed.{% endblocktranslate %}
     </p>
     {% else %}
     <p class="text-xs px-3 py-2 rounded-lg"
        style="background: var(--warning-soft, #FEF3C7); color: var(--warning-700, #B45309);">
-        You don't hold any grantable permissions in this workspace.
+        {% blocktranslate %}You don't hold any grantable permissions in this workspace.{% endblocktranslate %}
     </p>
     {% endif %}
 </div>

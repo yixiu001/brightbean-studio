@@ -1,6 +1,7 @@
+{% load i18n %}
 <div class="text-sm text-green-700">
-  Activation complete!
+  {% blocktranslate %}Activation complete!{% endblocktranslate %}
   <a href="{% url 'intelligence:playground' org_id=org_id %}"
-     class="text-orange-600 hover:text-orange-700 ml-1">Open Intelligence →</a>
+     class="text-orange-600 hover:text-orange-700 ml-1">{% blocktranslate %}Open Intelligence →{% endblocktranslate %}</a>
 </div>
 <script>window.location.href = "{% url 'intelligence:playground' org_id=org_id %}";</script>

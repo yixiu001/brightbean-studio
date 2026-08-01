@@ -5,6 +5,7 @@ from collections import defaultdict
 from django.db.models import F, Prefetch
 from django.http import Http404, HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_GET, require_http_methods, require_POST
 
 from apps.approvals import services as approval_services
@@ -30,7 +31,7 @@ def _portal_response(post_id, action, *, tone, title, body=""):
 def _portal_error(request, message):
     """Feedback for a failed portal action: an error toast for htmx, 400 otherwise."""
     if request.htmx:
-        return toast_response(tone="error", title="Couldn't complete that", body=message)
+        return toast_response(tone="error", title=_("Couldn't complete that"), body=message)
     return HttpResponse(message, status=400)
 
 
@@ -200,7 +201,11 @@ def portal_approve(request, post_id):
 
     if request.htmx:
         return _portal_response(
-            post.id, "approved", tone="success", title="Approved", body="Thanks — scheduled to publish."
+            post.id,
+            "approved",
+            tone="success",
+            title=_("Approved"),
+            body=_("Thanks — scheduled to publish."),
         )
     return redirect("client_portal:approval_queue")
 
@@ -222,7 +227,11 @@ def portal_request_changes(request, post_id):
 
     if request.htmx:
         return _portal_response(
-            post.id, "changes_requested", tone="info", title="Feedback sent", body="The team will take a look."
+            post.id,
+            "changes_requested",
+            tone="info",
+            title=_("Feedback sent"),
+            body=_("The team will take a look."),
         )
     return redirect("client_portal:approval_queue")
 
@@ -243,7 +252,13 @@ def portal_reject(request, post_id):
         return _portal_error(request, str(e))
 
     if request.htmx:
-        return _portal_response(post.id, "rejected", tone="error", title="Post rejected", body="The team was notified.")
+        return _portal_response(
+            post.id,
+            "rejected",
+            tone="error",
+            title=_("Post rejected"),
+            body=_("The team was notified."),
+        )
     return redirect("client_portal:approval_queue")
 
 
@@ -267,8 +282,8 @@ def portal_request_hold(request, post_id):
             post.id,
             "on_hold",
             tone="warn",
-            title="Hold requested",
-            body="The team was notified. Nothing publishes while held.",
+            title=_("Hold requested"),
+            body=_("The team was notified. Nothing publishes while held."),
         )
     return redirect("client_portal:approval_queue")
 

@@ -213,6 +213,7 @@ node_modules/
 theme/static/css/dist/
 *.sqlite3
 /.claude/worktrees
+/.worktrees/
 .DS_Store
 
 # Local seed scripts (not for version control)

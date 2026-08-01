@@ -1,3 +1,4 @@
+{% load i18n %}
 <div class="max-h-[400px] overflow-y-auto -m-1 p-1">
     <ul class="space-y-1">
         {% for niche in result.niches %}
@@ -6,10 +7,10 @@
                 <div class="text-sm font-medium text-stone-900 truncate">{{ niche.name }}</div>
                 <div class="text-[11px] font-mono text-stone-400 truncate">{{ niche.slug }}</div>
             </div>
-            <span class="text-[11px] flex-shrink-0 px-2 py-0.5 rounded-md bg-stone-100 text-stone-600 font-medium">{{ niche.gap_count }} gaps</span>
+            <span class="text-[11px] flex-shrink-0 px-2 py-0.5 rounded-md bg-stone-100 text-stone-600 font-medium">{% blocktranslate %}{{ niche.gap_count }} gaps{% endblocktranslate %}</span>
         </li>
         {% empty %}
-        <li class="text-sm text-stone-500 py-2">No niches available.</li>
+        <li class="text-sm text-stone-500 py-2">{% blocktranslate %}No niches available.{% endblocktranslate %}</li>
         {% endfor %}
     </ul>
 </div>

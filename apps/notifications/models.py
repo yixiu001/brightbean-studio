@@ -2,27 +2,28 @@ import uuid
 
 from django.conf import settings
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class EventType(models.TextChoices):
-    POST_SUBMITTED = "post_submitted", "Post submitted for approval"
-    POST_APPROVED = "post_approved", "Post approved"
-    POST_CHANGES_REQUESTED = "post_changes_requested", "Post changes requested"
-    POST_REJECTED = "post_rejected", "Post rejected"
-    POST_PUBLISHED = "post_published", "Post published"
-    POST_FAILED = "post_failed", "Post failed"
-    NEW_INBOX_MESSAGE = "new_inbox_message", "New inbox message"
-    INBOX_SLA_OVERDUE = "inbox_sla_overdue", "Inbox SLA overdue"
-    CLIENT_APPROVAL_REQUESTED = "client_approval_requested", "Client approval requested"
-    TEAM_MEMBER_INVITED = "team_member_invited", "Team member invited"
-    SOCIAL_ACCOUNT_DISCONNECTED = "social_account_disconnected", "Social account disconnected"
-    REPORT_GENERATED = "report_generated", "Report generated"
-    ENGAGEMENT_ALERT = "engagement_alert", "Engagement alert"
-    COMMENT_MENTION = "comment_mention", "Mentioned in a comment"
-    APPROVAL_REMINDER = "approval_reminder", "Approval reminder"
-    APPROVAL_STALLED = "approval_stalled", "Stalled approval escalation"
-    APPROVAL_HOLD_REQUESTED = "approval_hold_requested", "Client requested a hold"
-    CLIENT_CONNECTED_ACCOUNTS = "client_connected_accounts", "Client connected accounts"
+    POST_SUBMITTED = "post_submitted", _("Post submitted for approval")
+    POST_APPROVED = "post_approved", _("Post approved")
+    POST_CHANGES_REQUESTED = "post_changes_requested", _("Post changes requested")
+    POST_REJECTED = "post_rejected", _("Post rejected")
+    POST_PUBLISHED = "post_published", _("Post published")
+    POST_FAILED = "post_failed", _("Post failed")
+    NEW_INBOX_MESSAGE = "new_inbox_message", _("New inbox message")
+    INBOX_SLA_OVERDUE = "inbox_sla_overdue", _("Inbox SLA overdue")
+    CLIENT_APPROVAL_REQUESTED = "client_approval_requested", _("Client approval requested")
+    TEAM_MEMBER_INVITED = "team_member_invited", _("Team member invited")
+    SOCIAL_ACCOUNT_DISCONNECTED = "social_account_disconnected", _("Social account disconnected")
+    REPORT_GENERATED = "report_generated", _("Report generated")
+    ENGAGEMENT_ALERT = "engagement_alert", _("Engagement alert")
+    COMMENT_MENTION = "comment_mention", _("Mentioned in a comment")
+    APPROVAL_REMINDER = "approval_reminder", _("Approval reminder")
+    APPROVAL_STALLED = "approval_stalled", _("Stalled approval escalation")
+    APPROVAL_HOLD_REQUESTED = "approval_hold_requested", _("Client requested a hold")
+    CLIENT_CONNECTED_ACCOUNTS = "client_connected_accounts", _("Client connected accounts")
 
 
 class Channel(models.TextChoices):

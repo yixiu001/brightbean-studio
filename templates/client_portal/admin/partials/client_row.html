@@ -1,3 +1,4 @@
+{% load i18n %}
 <div class="px-6 py-4 flex items-center gap-4" id="client-{{ client.membership.id }}"
      style="border-bottom: 1px solid var(--border);">
     <!-- Avatar -->
@@ -18,11 +19,11 @@
     <div class="flex-shrink-0">
         {% if client.token %}
         <span class="text-xs font-medium px-2.5 py-1 rounded-full" style="background: #DCFCE7; color: #166534;">
-            Link active
+            {% blocktranslate %}Link active{% endblocktranslate %}
         </span>
         {% else %}
         <span class="text-xs font-medium px-2.5 py-1 rounded-full" style="background: var(--neutral-100); color: var(--text-tertiary);">
-            No link sent
+            {% blocktranslate %}No link sent{% endblocktranslate %}
         </span>
         {% endif %}
     </div>
@@ -50,7 +51,7 @@
             <button type="submit"
                     class="btn-danger-soft-bg text-xs px-3 py-1.5 rounded-full font-medium cursor-pointer transition-colors"
                     style="color: #DC2626; background: transparent;">
-                Remove
+                {% blocktranslate %}Remove{% endblocktranslate %}
             </button>
         </form>
     </div>
