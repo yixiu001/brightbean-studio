@@ -31,6 +31,7 @@ from django.core.exceptions import (
 from django.http import Http404, HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.utils import timezone
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_http_methods
 
 from apps.api_keys import services
@@ -325,10 +326,10 @@ def _parse_expires_at(expires_at_str: str):
         dt = parse_datetime(expires_at_str)
         date_only = parse_date(expires_at_str)
     except ValueError:
-        return None, "Could not parse expires_at."
+        return None, _("Could not parse expires_at.")
 
     if dt is None and date_only is None:
-        return None, "Could not parse expires_at."
+        return None, _("Could not parse expires_at.")
 
     if date_only is not None:
         # Date-only value (e.g. ``<input type="date">``) → end of that day, so
@@ -358,9 +359,9 @@ def _resolve_account_allowlist(account_ids, workspace) -> tuple[list, str | None
     try:
         accounts = list(SocialAccount.objects.filter(id__in=account_ids, workspace=workspace))
     except (ValueError, DjangoValidationError):
-        return [], "Some selected accounts do not belong to that workspace."
+        return [], _("Some selected accounts do not belong to that workspace.")
     if len(accounts) != len(set(account_ids)):
-        return accounts, "Some selected accounts do not belong to that workspace."
+        return accounts, _("Some selected accounts do not belong to that workspace.")
     return accounts, None
 
 
@@ -381,11 +382,11 @@ def issue_key(request):
 
     errors: list[str] = []
     if not name:
-        errors.append("Name is required.")
+        errors.append(_("Name is required."))
     if not workspace_id:
-        errors.append("Workspace is required.")
+        errors.append(_("Workspace is required."))
     if not account_ids:
-        errors.append("Select at least one connected account.")
+        errors.append(_("Select at least one connected account."))
 
     workspace = None
     if workspace_id and not errors:
@@ -395,7 +396,7 @@ def issue_key(request):
             # ``ValidationError`` covers the malformed-UUID path; see the
             # corresponding catch in ``workspace_options_partial`` for
             # the full rationale.
-            errors.append("Selected workspace is not in this organisation.")
+            errors.append(_("Selected workspace is not in this organisation."))
 
     accounts: list[SocialAccount] = []
     if workspace is not None:
@@ -466,9 +467,9 @@ def revoke_key(request, key_id):
         raise Http404()
     if key.revoked_at is None:
         services.revoke_api_key(key)
-        messages.success(request, f"Revoked key “{key.name}”.")
+        messages.success(request, _("Revoked key “%(key)s”.") % {"key": key.name})
     else:
-        messages.info(request, f"Key “{key.name}” was already revoked.")
+        messages.info(request, _("Key “%(key)s” was already revoked.") % {"key": key.name})
     return redirect("api_keys:list")
 
 
@@ -497,7 +498,7 @@ def edit_key(request, key_id):
 
     # Only active keys are editable (mirror the row's Edit button gating).
     if not key.is_active:
-        messages.info(request, f"Key “{key.name}” is not active; it can't be edited.")
+        messages.info(request, _("Key “%(key)s” is not active; it can't be edited.") % {"key": key.name})
         return redirect("api_keys:list")
 
     account_ids = request.POST.getlist("social_account_ids")
@@ -506,7 +507,7 @@ def edit_key(request, key_id):
 
     errors: list[str] = []
     if not account_ids:
-        errors.append("Select at least one connected account.")
+        errors.append(_("Select at least one connected account."))
     accounts, acct_err = _resolve_account_allowlist(account_ids, key.workspace)
     if acct_err:
         errors.append(acct_err)
@@ -530,5 +531,5 @@ def edit_key(request, key_id):
         messages.error(request, str(exc))
         return redirect("api_keys:list")
 
-    messages.success(request, f"Updated “{key.name}”.")
+    messages.success(request, _("Updated “%(key)s”.") % {"key": key.name})
     return redirect("api_keys:list")

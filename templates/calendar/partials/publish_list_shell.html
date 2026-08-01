@@ -1,4 +1,4 @@
-{% load i18n %}
+{% load i18n timezone_labels %}
 {% comment %}
 List mode shell for the Publish page.
 Contains tabs (Queue, Drafts, Approvals, Sent), filter dropdowns, and tab content area.
@@ -12,19 +12,19 @@ Tab switching is HTMX partial swaps only - no full page reload.
         <div class="flex items-center gap-1 -mb-px overflow-x-auto flex-nowrap">
             <button class="publish-tab" :class="activeTab === 'queue' && 'active'"
                     @click="switchTab('queue')">
-                Queue {% if queue_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ queue_count }}</span>{% endif %}
+                {% translate "Queue" %} {% if queue_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ queue_count }}</span>{% endif %}
             </button>
             <button class="publish-tab" :class="activeTab === 'drafts' && 'active'"
                     @click="switchTab('drafts')">
-                Drafts {% if drafts_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ drafts_count }}</span>{% endif %}
+                {% translate "Drafts" %} {% if drafts_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ drafts_count }}</span>{% endif %}
             </button>
             <button class="publish-tab" :class="activeTab === 'approvals' && 'active'"
                     @click="switchTab('approvals')">
-                Approvals {% if approvals_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ approvals_count }}</span>{% endif %}
+                {% translate "Approvals" %} {% if approvals_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ approvals_count }}</span>{% endif %}
             </button>
             <button class="publish-tab" :class="activeTab === 'sent' && 'active'"
                     @click="switchTab('sent')">
-                Sent {% if sent_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ sent_count }}</span>{% endif %}
+                {% translate "Sent" %} {% if sent_count %}<span class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-medium text-stone-500 bg-stone-100 rounded-full">{{ sent_count }}</span>{% endif %}
             </button>
         </div>
 
@@ -57,7 +57,7 @@ Tab switching is HTMX partial swaps only - no full page reload.
                 <svg class="publish-filter-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                 <select class="publish-filter-select has-icon" x-model="displayTimezone" @change="reloadTab()">
                     {% for tz in timezone_choices %}
-                    <option value="{{ tz }}" {% if tz == display_timezone %}selected{% endif %}>{{ tz|cut:"America/"|cut:"Europe/"|cut:"Asia/"|cut:"US/"|cut:"Pacific/"|cut:"Australia/" }}{% if tz == workspace_timezone %} (workspace){% endif %}</option>
+                    <option value="{{ tz }}" {% if tz == display_timezone %}selected{% endif %}>{{ tz|timezone_label }}{% if tz == workspace_timezone %} {% translate "(workspace)" %}{% endif %}</option>
                     {% endfor %}
                 </select>
             </div>

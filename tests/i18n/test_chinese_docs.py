@@ -1,4 +1,5 @@
 import hashlib
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -14,6 +15,27 @@ DOCUMENTS = {
 
 def chinese_path(source: Path) -> Path:
     return source.with_name(f"{source.stem}_cn{source.suffix}")
+
+
+FENCE_RE = re.compile(r"^```.*?^```[ \t]*$", re.MULTILINE | re.DOTALL)
+HEADING_RE = re.compile(r"^(#{1,6})[ \t]+", re.MULTILINE)
+LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)\s]+)(?:\s+[^)]*)?\)")
+
+
+def _outside_fences(text: str) -> str:
+    return FENCE_RE.sub("", text)
+
+
+def _fenced_blocks(text: str) -> list[str]:
+    return FENCE_RE.findall(text)
+
+
+def _heading_levels(text: str) -> list[int]:
+    return [len(marker) for marker in HEADING_RE.findall(_outside_fences(text))]
+
+
+def _link_destinations(text: str) -> list[str]:
+    return LINK_RE.findall(_outside_fences(text))
 
 
 def test_english_markdown_sources_are_unchanged():
@@ -39,10 +61,12 @@ def test_every_english_document_has_a_complete_chinese_counterpart():
 
         source_text = source.read_text(encoding="utf-8")
         translated_text = translated.read_text(encoding="utf-8")
-        if source_text.count("```") != translated_text.count("```"):
-            structural_mismatches.append(f"{relative_path}: fenced code block count")
-        if source_text.count("\n#") != translated_text.count("\n#"):
-            structural_mismatches.append(f"{relative_path}: heading count")
+        if _fenced_blocks(source_text) != _fenced_blocks(translated_text):
+            structural_mismatches.append(f"{relative_path}: fenced code block content")
+        if _heading_levels(source_text) != _heading_levels(translated_text):
+            structural_mismatches.append(f"{relative_path}: heading levels/count")
+        if _link_destinations(source_text) != _link_destinations(translated_text):
+            structural_mismatches.append(f"{relative_path}: link destinations")
         if "TRANSLATION_MISSING" in translated_text:
             structural_mismatches.append(f"{relative_path}: translation sentinel")
 

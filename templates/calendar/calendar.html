@@ -2,7 +2,7 @@
 {% load i18n %}
 {% load static %}
 
-{% block title %}Publish - {{ workspace.name }} - Brightbean{% endblock %}
+{% block title %}{% blocktranslate with workspace_name=workspace.name %}Publish - {{ workspace_name }} - Brightbean{% endblocktranslate %}{% endblock %}
 
 {% block page_header %}
 <div class="flex flex-wrap items-center justify-between gap-3 mb-4 lg:mb-[25px]">

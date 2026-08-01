@@ -34,6 +34,7 @@ from django.db import IntegrityError, transaction
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.shortcuts import redirect, render
 from django.utils import timezone
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_GET, require_POST
 
 from apps.members.decorators import require_org_permission
@@ -407,7 +408,7 @@ def checkout(request, org_id):
         if existing_url:
             messages.info(
                 request,
-                "Resuming the checkout your teammate started for this org.",
+                _("Resuming the checkout your teammate started for this org."),
             )
             return redirect(existing_url)
         # Anything else (already_active, pending_activation, in-progress
@@ -416,7 +417,7 @@ def checkout(request, org_id):
         # render the right resume / manage UI on the next render.
         messages.warning(
             request,
-            "Couldn't start checkout: {}".format(exc.code or "conflict"),
+            _("Couldn't start checkout: %(reason)s") % {"reason": exc.code or "conflict"},
         )
         return redirect("intelligence:subscribe", org_id=org_id)
     except (ServiceUnavailable, DeploymentNotAuthorized, IntelligenceClientError) as exc:
@@ -424,7 +425,7 @@ def checkout(request, org_id):
         logger.exception("studio_checkout_session failed: %s", exc)
         messages.error(
             request,
-            "We couldn't reach the billing service. Try again in a moment.",
+            _("We couldn't reach the billing service. Try again in a moment."),
         )
         return redirect("intelligence:subscribe", org_id=org_id)
 
@@ -501,14 +502,14 @@ def discard_checkout(request, org_id):
         try:
             remote = _client().check_eligibility(external_org_id=str(org_id))
         except (DeploymentNotAuthorized, IntelligenceClientError):
-            messages.info(request, "No checkout to discard.")
+            messages.info(request, _("No checkout to discard."))
             return redirect("intelligence:subscribe", org_id=org_id)
         if remote.get("reason") == "open_checkout":
             details = remote.get("details") or {}
             remote_session_id = details.get("stripe_session_id") or None
         if remote_session_id is None:
             # Nothing open anywhere.
-            messages.info(request, "No checkout to discard.")
+            messages.info(request, _("No checkout to discard."))
             return redirect("intelligence:subscribe", org_id=org_id)
 
     # Build the cancel call. Key the idempotency on the stable id of
@@ -538,7 +539,7 @@ def discard_checkout(request, org_id):
         logger.exception("cancel_studio_checkout_session failed")
         messages.error(
             request,
-            "We couldn't reach the billing service. Try again in a moment.",
+            _("We couldn't reach the billing service. Try again in a moment."),
         )
         return redirect("intelligence:subscribe", org_id=org_id)
 
@@ -549,7 +550,7 @@ def discard_checkout(request, org_id):
             attempt.consumed_at = timezone.now()
             attempt.save(update_fields=["status", "consumed_at", "updated_at"])
 
-    messages.info(request, "Checkout discarded. Pick a plan to start a new one.")
+    messages.info(request, _("Checkout discarded. Pick a plan to start a new one."))
     return redirect("intelligence:subscribe", org_id=org_id)
 
 
@@ -893,7 +894,7 @@ def recover(request, org_id):
     activation against that row's ``session_id``."""
     pending = _client().pending_activation(external_org_id=str(org_id))
     if pending is None:
-        messages.warning(request, "No pending activation found.")
+        messages.warning(request, _("No pending activation found."))
         return redirect("intelligence:playground", org_id=org_id)
 
     session_id = pending["stripe_session_id"]
@@ -1050,7 +1051,7 @@ def portal(request, org_id):
         logger.exception("portal_session failed: %s", exc)
         messages.error(
             request,
-            "We couldn't open the billing portal. Try again in a moment.",
+            _("We couldn't open the billing portal. Try again in a moment."),
         )
         return redirect("intelligence:playground", org_id=org_id)
     return redirect(resp["url"])
@@ -1138,7 +1139,10 @@ def update_billing_contact(request, org_id):
             logger.exception("update_billing_contact sync failed")
             messages.error(
                 request,
-                "We couldn't reach the billing service. Your change has NOT been saved, please try again in a moment.",
+                _(
+                    "We couldn't reach the billing service. Your change has NOT been saved, "
+                    "please try again in a moment."
+                ),
             )
             if request.headers.get("HX-Request"):
                 return render(
@@ -1158,7 +1162,7 @@ def update_billing_contact(request, org_id):
             "intelligence/_billing_contact_saved.html",
             {"billing_email": billing_email},
         )
-    messages.success(request, "Billing contact updated.")
+    messages.success(request, _("Billing contact updated."))
     return redirect("intelligence:billing-settings", org_id=org_id)
 
 

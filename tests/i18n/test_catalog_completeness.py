@@ -31,3 +31,21 @@ def test_chinese_catalog_preserves_format_placeholders():
             mismatches.append((entry.msgid, source, translation))
 
     assert mismatches == []
+
+
+def test_chinese_catalog_has_project_metadata():
+    catalog = polib.pofile(CATALOG)
+
+    assert catalog.metadata["Project-Id-Version"] == "BrightBean Studio"
+    assert catalog.metadata["Language"] == "zh_CN"
+
+
+def test_technical_and_product_terms_have_context_appropriate_translations():
+    translations = {entry.msgid: entry.msgstr for entry in _entries()}
+
+    assert translations["Post"] == "帖子"
+    assert translations["P"] == "P"
+    assert translations["p20"] == "p20"
+    assert translations["p50"] == "p50"
+    assert translations["p80"] == "p80"
+    assert translations["Crop"] == "裁剪"

@@ -388,7 +388,7 @@ function mediaLibrary() {
             this.uploadQueue[index].progress = 100;
           } else {
             this.uploadQueue[index].status = 'error';
-            this.uploadQueue[index].error = 'Upload failed';
+            this.uploadQueue[index].error = '{% translate "Upload failed" %}';
           }
           if (completed === total) {
             setTimeout(() => {
@@ -402,7 +402,7 @@ function mediaLibrary() {
         xhr.addEventListener('error', () => {
           completed++;
           this.uploadQueue[index].status = 'error';
-          this.uploadQueue[index].error = 'Network error';
+          this.uploadQueue[index].error = '{% translate "Network error" %}';
           if (completed === total) {
             setTimeout(() => {
               this.uploading = false;

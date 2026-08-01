@@ -1841,7 +1841,7 @@ At any stage:
 ---
 ---
 
-#6.MEDIA MANAGEMENT
+# 6. 媒体管理
 
 ---
 
@@ -1928,7 +1928,7 @@ At any stage:
 ---
 ---
 
-#7.NOTIFICATION SYSTEM
+# 7. 通知系统
 
 ---
 
@@ -2011,7 +2011,7 @@ At any stage:
 ---
 ---
 
-#8.ADDITIONAL FEATURES
+# 8. 其他功能
 
 ---
 
@@ -2557,7 +2557,7 @@ InboxMessage
 ---
 ---
 
-#10.BUILD PHASES
+# 10. 构建阶段
 
 ### 第 1 阶段：基础和核心发布（第 1-6 周）
 - F-1.1 组织管理
@@ -2616,7 +2616,7 @@ InboxMessage
 ---
 ---
 
-#11.TECHNICAL REQUIREMENTS
+# 11. 技术要求
 
 ### 平台集成架构
 

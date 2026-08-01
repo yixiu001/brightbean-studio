@@ -78,15 +78,15 @@
         <div class="flex items-start justify-between gap-4 mb-10">
             <div>
                 <h3 class="text-base font-semibold mb-1" style="color: var(--text-primary);">
-                    {% if workspace.is_archived %}Restore this workspace{% else %}Archive this workspace{% endif %}
+                    {% if workspace.is_archived %}{% translate "Restore this workspace" %}{% else %}{% translate "Archive this workspace" %}{% endif %}
                 </h3>
                 <p class="text-sm" style="color: var(--text-secondary); max-width: 480px;">
                     {% if workspace.is_archived %}
-                    This workspace is currently archived. Restoring it will make it visible in the sidebar and accessible to all members again.
+                    {% translate "This workspace is currently archived. Restoring it will make it visible in the sidebar and accessible to all members again." %}
                     {% elif can_archive %}
-                    Archiving hides this workspace from the sidebar and prevents new posts. All existing data is preserved and the workspace can be restored at any time.
+                    {% translate "Archiving hides this workspace from the sidebar and prevents new posts. All existing data is preserved and the workspace can be restored at any time." %}
                     {% else %}
-                    You cannot archive the last active workspace in the organization. Create another workspace first.
+                    {% translate "You cannot archive the last active workspace in the organization. Create another workspace first." %}
                     {% endif %}
                 </p>
             </div>

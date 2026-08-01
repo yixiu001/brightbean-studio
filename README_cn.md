@@ -300,7 +300,7 @@ docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 | 平台 | 配置文件 | 注释 |
 |----------|-------------|-------|
 | **Heroku** | `Procfile` + `app.json` | 部署按钮就绪。必须使用 Basic+ dynos（Eco dynos 会破坏工人）。 |
-| **铁路** | `railway.toml` | 【一键模板】(https://railway.com/deploy/brightbean-studio) 提供三种服务：Web（Gunicorn、运行）启动时为 `migrate`)、工作线程 (`python manage.py process_tasks`) 和托管 PostgreSQL。 Web 服务的启动 `migrate` 会触发注册重复任务的 `post_migrate` 挂钩，因此调度可以开箱即用。 |
+| **铁路** | `railway.toml` | [一键模板](https://railway.com/deploy/brightbean-studio) 提供三种服务：Web（Gunicorn、运行）启动时为 `migrate`)、工作线程 (`python manage.py process_tasks`) 和托管 PostgreSQL。 Web 服务的启动 `migrate` 会触发注册重复任务的 `post_migrate` 挂钩，因此调度可以开箱即用。 |
 | **渲染** | `render.yaml` | 带有 Web、worker、PostgreSQL 的蓝图。必须使用付费等级。 |
 
 所有具有临时文件系统的平台都需要 `STORAGE_BACKEND=s3` - 有关 S3 配置，请参阅 `.env.example`。
@@ -482,7 +482,7 @@ Brightbean Studio 支持两个 LinkedIn 路径。选择您的 LinkedIn 开发应
 
 ### 抖音
 
-1. 进入【TikTok开发者平台】(https://developers.tiktok.com/)，创建一个新应用
+1. 进入 [TikTok 开发者平台](https://developers.tiktok.com/)，创建一个新应用
 2.添加产品**登录套件**和**内容发布API**
 3. 配置重定向 URI — 使用 `social1`，而不是 `tiktok`（TikTok 拒绝包含其品牌名称的 URI）：
    ```
@@ -501,7 +501,7 @@ Brightbean Studio 支持两个 LinkedIn 路径。选择您的 LinkedIn 开发应
 
 YouTube 和 Google 商家资料共享相同的 Google Cloud 凭据。
 
-1. 进入【Google Cloud Console】(https://console.cloud.google.com/)，新建一个项目（或选择已有的项目）
+1. 进入 [Google Cloud Console](https://console.cloud.google.com/)，新建一个项目（或选择已有的项目）
 2. 在 **API 和服务 → 库** 下启用以下 API：
    - **YouTube 数据 API v3**（适用于 YouTube）
    - **我的商家帐户管理 API**、**我的商家商家信息 API** 和 **Google 我的商家 API**（适用于 Google 商家资料）
@@ -540,7 +540,7 @@ YouTube 和 Google 商家资料共享相同的 Google Cloud 凭据。
 
 无需注册开发者应用程序。用户通过输入 Bluesky 句柄和 **应用程序密码** 进行连接：
 
-1.登录【蓝天】(https://bsky.app/)
+1. 登录 [Bluesky](https://bsky.app/)
 2. 转到 **设置 → 隐私和安全 → 应用程序密码**
 3. 创建一个新的应用程序密码，并在 Brightbean Studio 中连接您的帐户时使用它
 
@@ -552,7 +552,7 @@ YouTube 和 Google 商家资料共享相同的 Google Cloud 凭据。
 
 无需注册开发者应用程序。用户通过输入个人 **API 密钥**进行连接：
 
-1.登录【DEV.to】(https://dev.to/)，打开**【设置→扩展】(https://dev.to/settings/extensions)**
+1. 登录 [DEV.to](https://dev.to/)，打开 **[设置 → 扩展](https://dev.to/settings/extensions)**
 2. 在 **DEV Community API Keys** 下，输入说明（例如 `Brightbean`），然后单击 **生成 API 密钥**
 3.复制生成的密钥并在Brightbean Studio中连接帐户时粘贴它
 
